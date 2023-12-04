@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ItemUnit">
+        <attr name="numberColor" format="color|reference" />
+        <attr name="txtTitle" format="string" />
+        <attr name="txtDes" format="string" />
+    </declare-styleable>
+</resources>

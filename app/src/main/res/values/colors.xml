@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008069</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_bg_main">#F5F5F5</color>
+    <color name="color_disable_icon_bottom">#668fa8be</color>
+
+    <color name="red">#D83955</color>
+    <color name="green">#49AA81</color>
+    <color name="purple">#9A7CFE</color>
+    <color name="gray">#E8E8E8</color>
+    <color name="color_weight_and_bmi">#22AF61</color>
+    <color name="color_blood_sugar">#4638D6</color>
+    <color name="color_progress">#E6E6E6</color>
+    <color name="color_disable_btn_measure">#AAAAAA</color>
+
+    <!--    <color name="color_bmi_type_1">#9A7CFE</color>-->
+<!--    <color name="color_bmi_type_2">#4436D1</color>-->
+    <color name="color_bmi_type_1">#5791FD</color>
+    <color name="color_bmi_type_2">#49AA81</color>
+    <color name="color_bmi_type_3">#FFDA3D</color>
+    <color name="color_bmi_type_4">#FEB501</color>
+    <color name="color_bmi_type_5">#FF824B</color>
+    <color name="color_bmi_type_6">#EE403F</color>
+    <color name="color_blood_pressure_main">#4BCD0B</color>
+    <color name="color_bmi_main">#F1329A</color>
+    <color name="color_blood_sugar_main">#FF3A39</color>
+    <color name="color_heart_rate_main">#39B8FF</color>
+    <color name="color_food_scanner_main">#9556FF</color>
+    <color name="color_yellow">#F7B11E</color>
+</resources>

@@ -1,0 +1,133 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.android.extensions'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.phat.trackerapp"
+        minSdk 21
+        targetSdk 33
+        versionCode 3
+        versionName "3"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    bundle {
+        language {
+            // Specifies that the app bundle should not support
+            // configuration APKs for language resources. These
+            // resources are instead packaged with each base and
+            // dynamic feature APK.
+            enableSplit = false
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+        absolutePaths false
+        lintConfig file('lint.xml')
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    implementation 'com.google.android:flexbox:2.0.1'
+    implementation("com.github.doyaaaaaken:kotlin-csv-jvm:1.6.0") //for JVM platform
+//    implementation("com.github.doyaaaaaken:kotlin-csv-js:1.6.0") //for Kotlin JS platform
+    implementation "androidx.room:room-runtime:2.2.5"
+    kapt "androidx.room:room-compiler:2.2.5"
+    implementation "androidx.room:room-ktx:2.2.5"
+    androidTestImplementation "androidx.room:room-testing:2.2.5"
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+
+    implementation project(':chart')
+
+    def lifecycle_version = "2.0.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'io.github.elye:loaderviewlibrary:3.0.0'
+
+
+    //circle imageview
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //custom progress
+//    implementation 'com.github.Adilhusen:circle-progress-ad-android-:1.0'
+//    implementation 'com.emredavarci:CircleProgressBar:1.0.8'
+
+    //math
+    implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+
+    //number picker
+    implementation 'io.github.ShawnLin013:number-picker:2.4.13'
+
+    // Barcode Scanner
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+
+    // Barcode Image Generator
+    //noinspection GradleDependency
+    implementation 'com.google.zxing:core:3.5.0'
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+
+    // float action button
+    implementation 'io.github.yavski:fab-speed-dial:1.0.6'
+
+
+    //lottieview
+    def lottieVersion = "3.4.0"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    //tiktok
+    implementation 'com.bytedance.ies.ugc.aweme:opensdk-oversea-external:0.2.1.0'
+
+    //adjust
+    implementation 'com.adjust.sdk:adjust-android:4.33.0'
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    // Add the following if you are using the Adjust SDK inside web views on your app
+    implementation 'com.adjust.sdk:adjust-android-webbridge:4.33.0'
+
+
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+
+    //coroutine
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha03"
+}

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tracker App</string>
+
+    <string name="txt_toast_ads">Hành động này có thể chứa quảng cáo</string>
+    <string name="txt_home">Trang chủ</string>
+    <string name="txt_info">Thông tin</string>
+    <string name="txt_setting">Cài đặt</string>
+    <string name="txt_signature">Chữ ký</string>
+    <string name="txt_crazy">Crazy</string>
+    <string name="txt_melt">Tan chảy</string>
+    <string name="txt_run">Chạy</string>
+    <string name="txt_lazy">Lười biếng</string>
+    <string name="txt_diet">Ăn kiêng</string>
+    <string name="txt_nightmare">Cơn ác mộng</string>
+    <string name="txt_right">Phải</string>
+    <string name="txt_left">Trái</string>
+
+    <string name="txt_remind_me_to_record">Nhắc tôi ghi lại</string>
+    <string name="txt_blood_pressure">Huyết áp</string>
+    <string name="txt_select_date">Vui lòng chọn ngày</string>
+    <string name="txt_heart_rate">Nhịp tim</string>
+    <string name="txt_blood_sugar">Đường huyết</string>
+    <string name="txt_weight_and_bmi">Trọng lượng &amp; BMI</string>
+
+    <string name="txt_language_options">Tùy chọn ngôn ngữ</string>
+    <string name="txt_export_as_file">Xuất dưới dạng tệp</string>
+    <string name="txt_rate_us">Đánh giá chúng tôi</string>
+    <string name="txt_share_with_friends">Chia sẻ với bạn bè</string>
+    <string name="txt_feedback">Gửi phản hồi</string>
+    <string name="txt_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="txt_your_data">Dữ liệu của bạn </string>
+    <string name="txt_food_scanner">Máy quét thực phẩm</string>
+    <string name="txt_tell_us_your_gender">Cho chúng tôi biết giới tính của bạn</string>
+    <string name="txt_female">Nữ</string>
+    <string name="txt_male">Nam</string>
+    <string name="txt_others">Khác</string>
+    <string name="txt_age">Tuổi</string>
+    <string name="txt_height">Chiều cao</string>0
+    <string name="txt_weight">Trọng lượng</string>
+    <string name="txt_save">Lưu</string>
+    <string name="txt_title_info_1">Nó được đo như thế nào?</string>
+    <string name="txt_title_info_2">Huyết áp là gì?</string>
+    <string name="txt_title_info_3">Lối sống cho người tăng huyết áp</string>
+    <string name="txt_title_info_4">Các loại huyết áp</string>
+    <string name="txt_title_info_5">Hạ huyết áp</string>
+    <string name="txt_title_info_6">Tăng huyết áp: Tại sao nó lại là một nhà máy rủi ro?</string>
+    <string name="txt_title_info_7">Tăng huyết áp ảnh hưởng đến não như thế nào</string>
+    <string name="txt_title_info_8">Huyết áp ảnh hưởng đến thận như thế nào?</string>
+    <string name="txt_title_info_9">Huyết áp ảnh hưởng như thế nào cơ quan khác?</string>
+    <string name="txt_title_info_10">Chẩn đoán tăng huyết áp</string>
+    <string name="txt_title_info_11">Mức đường huyết bình thường là gì?</string>
+    <string name="txt_title_info_12">Bệnh tiểu đường là gì?</string>
+    <string name="txt_title_info_13">Bệnh tiểu đường phổ biến như thế nào?</string>
+    <string name="txt_title_info_14">Làm sao để biết bạn có bị tiểu đường hay không?</string>
+    <string name="txt_title_info_15">Có bao nhiêu loại bệnh tiểu đường?</string>
+    <string name="txt_title_info_16">Biết về nhịp tim</string>
+    <string name="txt_back">Quay lại</string>
+
+    <string name="txt_info_des_1_1">Huyết áp được đo bằng các thiết bị có tên là máy đo huyết áp , thường được gọi là máy đo huyết áp , thiết bị này phải được xác nhận và phê duyệt theo quy định.</string>
+    <string name="txt_info_des_1_2">Để đảm bảo rằng phép đo thu được là chính xác , bạn phải tuân theo một loạt hướng dẫn: \10– Do huyết áp thay đổi cả ngày lẫn đêm, nên luôn đo cùng một lúc\10– Tìm một căn phòng yên tĩnh, không có tiếng ồn hoặc gián đoạn, với nhiệt độ từ 20-25° C. Bạn phải thư giãn. Không uống, ăn, hút thuốc hoặc tập thể dục nửa giờ trước khi đo. Nghỉ ngơi 5 phút trước khi đo. Ngồi thoải mái dựa lưng vào thành ghế, không bắt chéo chân và cởi bỏ bất kỳ quần áo nào có thể đè lên cánh tay của bạn. Để lòng bàn tay hướng lên trên và khuỷu tay hơi cong ngang với tim . Nếu bạn sử dụng máy đo huyết áp cổ tay, hãy đặt dây đeo cổ tay ngang với tim. Không nói chuyện trong khi đo.</string>
+
+    <string name="txt_info_des_2_1">Huyết áp hoặc huyết áp là điều cần thiết để máu lưu thông qua các mạch máu và do đó có thể mang oxy và chất dinh dưỡng cần thiết đến tất cả các mô của cơ thể . Nó có thể được định nghĩa là lực mà máu tác động lên thành động mạch, lực này cao nhất ( huyết áp tâm thu ) khi tim bơm máu vào động mạch và thấp nhất ( huyết áp tâm trương ) giữa các nhịp tim . Hai trị số này ( tâm thu và tâm trương ) dùng để đo huyết áp.</string>
+    <string name="txt_info_des_2_2">Khi theo dõi sức khỏe tổng quát, nên kiểm tra huyết áp, vì nếu trên mức bình thường (tăng huyết áp) , nó có thể có nghĩa là nguy cơ mắc các bệnh nghiêm trọng ( bệnh tim , đau tim , đột quỵ , suy thận , v.v. ) . Kiểm soát huyết áp thấp ( hạ huyết áp ) cũng rất quan trọng vì nó có thể gây lú lẫn , chóng mặt , choáng váng , ngất xỉu , suy nhược hoặc buồn ngủ.</string>
+
+    <string name="txt_info_des_3_1">Theo các chuyên gia, có những yếu tố ảnh hưởng đến tăng huyết áp mà chúng ta không thể kiểm soát, chẳng hạn như lão hóa, mãn kinh hoặc di truyền. Tuy nhiên, chúng ta có thể hành động bằng cách chống lại các yếu tố khác ảnh hưởng đến sự khởi phát của tăng huyết áp như béo phì, lối sống ít vận động, chế độ ăn uống kém hoặc tiêu thụ nhiều muối. Do đó, để kiểm soát các chỉ số huyết áp của mình, hai nguyên tắc cơ bản là chú ý đến chế độ ăn uống, loại bỏ muối và tuân theo chế độ ăn Địa Trung Hải, đồng thời tập thể dục.</string>
+    <string name="txt_info_des_3_2">Còn đối với huyết áp khuyến nghị thứ hai, Tổ chức Y tế Thế giới (WHO) đã đưa nó vào ba thập kỷ trong số các biện pháp phi dược lý quan trọng nhất nhằm hạ thấp giá trị huyết áp. Cụ thể, nó khuyến cáo rằng người trưởng thành nên tập ít nhất 150 phút hoạt động thể dục nhịp điệu cường độ vừa phải hoặc 75 phút hoạt động cường độ cao mỗi tuần.</string>
+    <string name="txt_info_des_3_3">Về chế độ ăn uống, điều quan trọng là phải ăn năm phần trái cây và rau mỗi ngày, giảm chất béo - đặc biệt là chất béo bão hòa - và giảm lượng muối ăn vào dưới 5 gam mỗi ngày - một thìa cà phê - hoặc thậm chí loại bỏ hoàn toàn, thay thế bằng các loại thảo mộc và gia vị không chứa natri. Một khuyến nghị khác là loại bỏ thực phẩm chế biến sẵn có chứa một lượng lớn muối khỏi chế độ ăn uống. Và đối với rượu, tiêu thụ quá mức có thể dẫn đến tăng huyết áp, vì vậy cũng nên tránh nó. Đối với những người đang tìm kiếm một chế độ ăn kiêng, bạn có thể tìm thấy nó tại liên kết này.</string>
+    <string name="txt_info_des_3_4">Ngoài ra, các chuyên gia nhắc nhở chúng ta rằng nếu huyết áp cao xuất hiện ở những người hút thuốc, khả năng bị đột quỵ hoặc nhồi máu cơ tim là rất cao. nhồi máu được nhân lên. Đó là lý do tại sao bỏ thuốc lá cũng là điều cần thiết.</string>
+
+
+    <string name="txt_info_des_4_1">Dựa trên các giá trị huyết áp (đầu tiên là huyết áp tâm thu hoặc huyết áp cao và thứ hai là huyết áp tâm trương hoặc huyết áp thấp), nó được phân loại như sau:</string>
+    <string name="txt_info_des_4_2">Hạ huyết áp SIS. ít hơn 90 hoặc DIA. dưới 60 SIS bình thường. 90-120 và DIA. 60-80 SIS tiền cao huyết áp. 120-140 và ĐƯỜNG KÍNH. Tăng huyết áp 80-90 Giai đoạn 1: SIS. 140-160 hoặc DIA. Tăng huyết áp 90-100 Giai đoạn 2: SIS. lớn hơn 160 hoặc DIA. lớn hơn 100.</string>
+    <string name="txt_info_des_4_3">Hãy nhớ rằng trị số huyết áp không cố định trong ngày mà dao động theo nhiều yếu tố. Sự phân loại này xác định sự tồn tại hay không của các trạng thái bệnh lý. Tuy nhiên, có những trường hợp huyết áp có thể tăng hoặc giảm đột ngột mà không nhất thiết có nghĩa là có vấn đề về huyết áp.</string>
+    <string name="txt_info_des_4_4">Do đó, căng thẳng hoặc nguy hiểm các tình huống có thể tạo ra sự gia tăng tạm thời nhưng đáng kể do tăng tiết adrenaline và noradrenaline hoặc kích hoạt hệ thần kinh đối giao cảm, các yếu tố góp phần làm tăng nhịp tim. Ngược lại, tình trạng mất nước, uống rượu, sử dụng một số loại thuốc, hạ đường huyết hoặc sốc (sốc phản vệ, đau tim, v.v.), trong số các nguyên nhân khác, có thể khiến huyết áp giảm đột ngột.</string>
+
+    <string name="txt_info_des_5_1">Nếu số đo của bạn dưới 90/60 mmHg, bạn có thể bị hạ huyết áp. Bạn không cần điều trị vì huyết áp thấp không gây hại gì và thường không có triệu chứng. Tuy nhiên, khi huyết áp của bạn thường xuyên bị tụt đột ngột trên 20 mmHg, do dùng một số loại thuốc, hoặc bạn cảm thấy chóng mặt, ngất xỉu, mệt mỏi, v.v., thì bạn nên tìm cách điều trị.</string>
+
+    <string name="txt_info_des_6_1">Tăng huyết áp đặt ra một nguy cơ căng thẳng lớn hơn đối với tim, đáp ứng bằng cách tăng khối lượng cơ của nó (phì đại tâm thất trái) để đối phó với nỗ lực bổ sung. Sự gia tăng khối lượng cơ bắp này cuối cùng lại có hại vì nó không đi kèm với sự gia tăng lưu lượng máu tương đương và có thể dẫn đến suy mạch vành và đau thắt ngực. Ngoài ra, cơ tim trở nên dễ bị kích thích hơn và xảy ra nhiều rối loạn nhịp tim hơn.</string>
+    <string name="txt_info_des_6_2">- Ở những bệnh nhân đã có vấn đề về tim mạch, tăng huyết áp có thể làm tổn thương nặng hơn. Nó thúc đẩy quá trình xơ vữa động mạch (tích tụ cholesterol trong động mạch) và hiện tượng huyết khối (có thể dẫn đến nhồi máu cơ tim hoặc nhồi máu não).</string>
+
+    <string name="txt_info_des_7_1">Khi các động mạch trở nên xơ cứng và thu hẹp, nguồn cung cấp máu trở nên không đủ và dẫn đến nhồi máu não (đột quỵ hay thiếu máu cục bộ). Huyết áp cao cũng có thể khiến động mạch bị vỡ, dẫn đến xuất huyết não (đột quỵ hoặc đột quỵ xuất huyết).</string>
+
+    <string name="txt_info_des_8_1">Tăng huyết áp làm xơ cứng các động mạch cung cấp máu cho thận. Nhưng nó cũng làm tổn thương chính thận, có thể dẫn đến suy thận, thậm chí phải lọc máu. Mặt khác, tổn thương thận có thể dẫn đến tăng huyết áp.</string>
+
+    <string name="txt_info_des_9_1">Nếu nó ảnh hưởng đến động mạch ở chân, nó sẽ gây đau khi đi bộ.</string>
+    <string name="txt_info_des_9_2">Tổn thương động mạch võng mạc có thể gây suy giảm thị lực.</string>
+    <string name="txt_info_des_9_3">Ở nam giới, bệnh này có thể gây liệt dương.</string>
+
+    <string name="txt_info_des_10_1">Theo Theo các chuyên gia, có những yếu tố ảnh hưởng đến tăng huyết áp mà chúng ta không thể kiểm soát được, chẳng hạn như lão hóa, mãn kinh hay di truyền. Tuy nhiên, chúng ta có thể hành động bằng cách chống lại các yếu tố khác ảnh hưởng đến sự khởi phát của tăng huyết áp như béo phì, lối sống ít vận động, chế độ ăn uống kém hoặc tiêu thụ nhiều muối. Do đó, để kiểm soát các chỉ số huyết áp của mình, hai nguyên tắc cơ bản là chú ý đến chế độ ăn uống, loại bỏ muối và tuân theo chế độ ăn Địa Trung Hải, đồng thời tập thể dục</string>
+    <string name="txt_info_des_10_2">Về phần sau khuyến nghị, Tổ chức Y tế Thế giới (WHO) đã bao gồm nó trong ba thập kỷ trong số các biện pháp phi dược lý quan trọng nhất nhằm giảm giá trị huyết áp. Cụ thể, nó khuyến cáo rằng người trưởng thành nên tập ít nhất 150 phút hoạt động thể chất aerobic cường độ vừa phải hoặc 75 phút hoạt động cường độ cao mỗi tuần.</string>
+
+    <string name="txt_info_des_11_1">Lượng glucose sẽ thay đổi tùy theo thời điểm, bạn đã ăn gì và ăn bao nhiêu, và bạn có tập thể dục hay không.</string>
+    <string name="txt_info_des_11_2">Mức đường huyết bình thường đối với người lớn (không mắc bệnh tiểu đường) đã không ăn ít nhất 8 giờ (nhịn ăn) ) nhỏ hơn 100 mg/dL. Và mức đối với người lớn không bị tiểu đường hai giờ sau khi ăn là 90 đến 110 mg/dL.</string>
+    <string name="txt_info_des_11_3">Mức đường huyết hợp lý đối với trẻ em dưới 6 tuổi nên nằm trong khoảng từ 80 đến 200 mg/dL mỗi ngày. Mức đường huyết trung bình của thanh thiếu niên nên ở mức từ 70 đến 150 mg/dL trong ngày.</string>
+
+    <string name="txt_info_des_12_1">Bệnh tiểu đường là một bệnh chuyển hóa gây ra lượng đường trong máu cao do thiếu insulin, kháng insulin, v.v.</string>
+    <string name="txt_info_des_12_2">Glucose là một phần quan trọng trong chức năng hàng ngày của chúng ta. Cơ thể chúng ta sử dụng nó để tạo năng lượng nhưng cần một loại hormone gọi là insulin, được sản xuất bởi tuyến tụy. Khi ai đó mắc bệnh tiểu đường, insulin được sản xuất không hoạt động chính xác, khiến lượng đường trong máu tăng cao hơn.</string>
+    <string name="txt_info_des_12_3">Bệnh tiểu đường hay đái tháo đường là một tình trạng nghiêm trọng và phức tạp. Những người mắc bệnh tiểu đường phải chung sống với nó trong suốt quãng đời còn lại vì hiện tại không có cách chữa trị.</string>
+
+    <string name="txt_info_des_13_1">Bệnh tiểu đường là một trong những bệnh mãn tính phát triển nhanh nhất trên thế giới</string>
+    <string name="txt_info_des_13_2">Năm 1980, 108 triệu người trên thế giới mắc bệnh tiểu đường. Đến năm 2014, con số đó đã tăng lên 422 triệu. (Tổ chức Y tế Thế giới [WHO], 2020)</string>
+    <string name="txt_info_des_13_3">Ước tính khoảng 700 triệu người trưởng thành trên toàn thế giới sẽ mắc bệnh tiểu đường vào năm 2045. (Liên đoàn Đái tháo đường Quốc tế [IDF], 2020)</string>
+    <string name="txt_info_des_13_4">Ngày càng có xu hướng mắc bệnh tiểu đường. Bệnh tiểu đường loại 2 đang gia tăng với tốc độ nhanh nhất.</string>
+
+    <string name="txt_info_des_14_1">Không có cá nhân nào có các triệu chứng giống nhau. Những gì bạn trải nghiệm sẽ không hoàn toàn khớp với trải nghiệm của người khác. Nếu bạn có bất kỳ triệu chứng nào sau đây, bạn nên đi khám bác sĩ để kiểm tra lượng đường trong máu.</string>
+    <string name="txt_info_des_14_2">. Cảm thấy rất khát nước \10. Cảm thấy rất đói \10. Cảm thấy rất mệt mỏi \10· Đi tiểu nhiều, đặc biệt là vào ban đêm \10. Giảm cân không cần cố gắng \10. Có thị lực mờ Có vết cắt và vết thương chậm lành \10. Bàn tay hoặc bàn chân bị tê hoặc ngứa ran \10. Bị nhiễm trùng nhiều hơn bình thường \10. Buồn nôn, nôn hoặc đau dạ dày \10(tiểu đường loại 1)</string>
+
+    <string name="txt_info_des_15_1">Có ba loại bệnh tiểu đường phổ biến: loại 1, loại 2 và thai kỳ.</string>
+    <string name="txt_info_des_15_2">Bệnh tiểu đường loại 1 xảy ra thường xuyên nhất ở trẻ em và thanh thiếu niên. Những người mắc bệnh tiểu đường loại 1 có lượng đường trong máu quá cao, nghĩa là họ cần tiêm insulin hàng ngày để duy trì mức đường huyết trong tầm kiểm soát.</string>
+    <string name="txt_info_des_15_3">Bệnh tiểu đường loại 2 phổ biến hơn ở người lớn và chiếm khoảng 90% của tất cả các trường hợp bệnh tiểu đường. Nhưng với việc điều trị và chăm sóc thích hợp, mọi người có thể điều trị tốt bệnh tiểu đường loại 2 và giảm nguy cơ phát triển bệnh này.</string>
+    <string name="txt_info_des_15_4">Bệnh tiểu đường thai kỳ có thể phát triển trong thời kỳ mang thai, thường thấy ở giai đoạn tiền tiểu đường và tiền sử gia đình mắc bệnh tiểu đường. Bệnh đái tháo đường thai kỳ thường biến mất sau khi mang thai, nhưng cả phụ nữ bị ảnh hưởng và con của họ đều có nguy cơ cao mắc bệnh đái tháo đường týp 2 sau này trong đời.</string>
+
+    <string name="txt_info_des_16_1">Nhịp tim, còn được gọi là mạch, là một con số số lần tim đập trong một khoảng thời gian (thường là một phút).</string>
+    <string name="txt_info_des_16_2">Khi tim đập, máu của chúng ta được bơm ra các phần còn lại của cơ thể, cung cấp đủ oxy cho mọi người tế bào. Thông qua quá trình này, các tế bào có thể thu được năng lượng và dinh dưỡng.</string>
+    <string name="txt_info_des_16_3">Tần số nhịp tim để lưu thông máu sẽ khác nhau khi nhu cầu oxy thay đổi. Ví dụ, khi chúng ta tập thể dục, các tế bào có xu hướng tiêu thụ nhiều oxy và năng lượng hơn. Do đó, tim của chúng ta đập nhanh hơn bình thường.</string>
+    <string name="txt_info_des_16_4">Nhịp tim được chia thành nhịp tim khi nghỉ ngơi và nhịp tim mục tiêu. Loại đầu tiên là mô tả (mô tả) nhịp tim của chúng ta khi chúng ta nghỉ ngơi. Cái sau được dùng để đánh giá cơ thể của chúng ta khi tập thể dục.</string>
+    <string name="txt_welcome_to_back">Chào mừng trở lại</string>
+    <string name="txt_please_enter_content">Vui lòng nhập nội dung!</string>
+    <string name="txt_please_enter_valid_content">Nội dung không hợp lệ!</string>
+    <string name="txt_invalid_height">Giá trị Tuổi hoặc Chiều cao hoặc Cân nặng không hợp lệ. Vui lòng thử lại!</string>
+    <string name="txt_comming_soon">Sắp ra mắt</string>
+    <string name="txt_please_add_new_record">Vui lòng thêm bản ghi mới để xem số liệu thống kê.</string>
+    <string name="txt_add_record"> Thêm bản ghi</string>
+    <string name="txt_pulse">Xung</string>
+    <string name="txt_history">Lịch sử</string>
+    <string name="txt_loading_ads">Đang tải quảng cáo…</string>
+    <string name="txt_min">Tối thiểu</string>
+    <string name="txt_average">Trung bình</string>
+    <string name="txt_latest">Mới nhất</string>
+
+    <string name="txt_max">Tối đa</string>
+    <string name="txt_systolic">Tâm thu</string>
+    <string name="txt_diastolic">Tâm trương</string>
+    <string name="txt_all_history">Tất cả lịch sử</string>
+    <string name="txt_new_record">Bản ghi mới</string>
+
+    <string name="txt_no_chart_data">Không có dữ liệu biểu đồ</string>
+    <string name="txt_hypotension">Hạ huyết áp</string>
+
+    <string name="txt_sys_180_or_dia_120">SYS &gt; 180 hoặc DIA &gt; 120</string>
+    <string name="txt_date_time">Ngày &amp; Thời gian</string>
+    <string name="txt_note">Ghi chú</string>
+    <string name="txt_today">Hôm nay</string>
+    <string name="txt_got_it">Hiểu rồi!</string>
+    <string name="txt_blood_pressure_type">Loại huyết áp:</string>
+    <string name="txt_normal_blood_pressure">Huyết áp bình thường</string>
+
+    <string name="txt_blood_level_1">SYS &lt; 120 và DIA &lt; 80</string>
+    <string name="txt_blood_level_2">SYS 120-129 và DIA &lt; 80</string>
+    <string name="txt_blood_level_3">SYS 130+ hoặc DIA 80+</string>
+    <string name="txt_blood_level_4">SYS 140+ hoặc DIA 90+</string>
+    <string name="txt_blood_level_5">SYS 180+ và/hoặc DIA 120+</string>
+
+    <string name="txt_diagnose_level_1">Huyết áp \10Bình thường</string>
+    <string name="txt_diagnose_level_2">Huyết áp \10Tăng cao</string>
+    <string name="txt_diagnose_level_3">Huyết áp cao - Giai đoạn 1</string>
+    <string name="txt_diagnose_level_4">Huyết áp cao - Giai đoạn 2</string>
+    <string name="txt_diagnose_level_5">Huyết áp cao nguy hiểm</string>
+
+    <string name="txt_elevated_blood_pressure">Huyết Áp Cao</string>
+    <string name="txt_high_blood_pressure_stage_1">Huyết Áp Cao - Giai Đoạn 1</string>
+    <string name="txt_high_blood_pressure_stage_2">Huyết Áp Cao - Giai Đoạn 2</string>
+    <string name="txt_notes">Ghi chú</string>
+    <string name="txt_edit_add">Chỉnh sửa/Thêm</string>
+    <string name="txt_no_record">Không có bản ghi nào ở đây!</string>
+    <string name="txt_edit_record">Chỉnh sửa bản ghi</string>
+    <string name="txt_delete_the_tag">Xóa thẻ?</string>
+
+    <string name="txt_are_you_sure_to_delete_this_tag">Bạn có chắc chắn xóa thẻ này không?</string>
+    <string name="txt_delete">Xóa </string>
+    <string name="txt_cancel">Hủy</string>
+
+    <string name="txt_delete_confirm">Xóa xác nhận</string>
+    <string name="txt_are_you_sure_to_delete_this_record">Bạn có chắc chắn xóa bản ghi này không?</string>
+    <string name="txt_long_press_and_drag_to_reorder">Nhấn lâu \n và kéo để sắp xếp lại</string>
+    <string name="txt_add_new">Thêm mới</string>
+    <string name="txt_add_note">Thêm ghi chú</string>
+    <string name="txt_maximum_20_characters">Tối đa 20 ký tự.</string>
+    <string name="txt_please_enter_something">Vui lòng nhập nội dung</string>
+    <string name="txt_add">+ Thêm</string>
+    <string name="txt_tracker">Trình theo dõi</string>
+    <string name="txt_bmi">BMI</string>
+    <string name="txt_language">Ngôn ngữ</string>
+    <string name="txt_press_again_to_exit">Nhấn lần nữa để thoát</string>
+
+    <string name="txt_bmi_type_1">Und cân nặng</string>
+    <string name="txt_bmi_type_2">Cân nặng bình thường</string>
+    <string name="txt_bmi_type_3">Thừa cân</string>
+    <string name="txt_bmi_type_4">Béo phì hạng I</string>
+    <string name="txt_bmi_type_5">Béo phì hạng II</string>
+    <string name="txt_bmi_type_6">Béo phì hạng III</string>
+    <string name="txt_bmi_type">Loại BMI</string>
+    <string name="txt_des_bmi_type_1">Dưới đây 18,5</string>
+    <string name="txt_des_bmi_type_2">18,5 - 24,5</string>
+    <string name="txt_des_bmi_type_3">25,0 - 29,9</string>
+    <string name="txt_des_bmi_type_4">30,0 - 34,9</string>
+    <string name="txt_des_bmi_type_5">35.0 - 39.9</string>
+    <string name="txt_des_bmi_type_6">Trên 40</string>
+    <string name="txt_range_height">Chiều cao từ 1-255cm</string>
+    <string name="txt_range_weight">Cân nặng từ 1-255kg</string>
+    <string name="txt_after_break_fast">Sau bữa sáng</string>
+    <string name="txt_before_break_fast">Trước bữa sáng</string>
+    <string name="txt_after_lunch">Sau bữa trưa</string>
+    <string name="txt_before_lunch">Trước bữa trưa</string>
+    <string name="txt_after_dinner">Sau bữa tối</string>
+    <string name="txt_before_dinner">Trước bữa tối</string>
+    <string name="txt_morning">Buổi sáng</string>
+    <string name="txt_state">Trạng thái</string>
+
+    <string name="txt_pre_diabetes">Tiền tiểu đường</string>
+    <string name="txt_diabetes">Bệnh tiểu đường</string>
+    <string name="txt_low">Thấp</string>
+    <string name="txt_normal">Bình thường</string>
+    <string name="txt_please_enter_valid_blood_sugar_1">Vui lòng nhập lượng đường huyết hợp lệ 18,0~35,0 mmol/l</string>
+    <string name="txt_please_enter_valid_blood_sugar_2">Vui lòng nhập lượng đường huyết hợp lệ 18,0~ 630,0 mg/dL</string>
+    <string name="txt_feeling_good">Cảm thấy dễ chịu</string>
+    <string name="txt_un_comfortable">Khó chịu</string>
+    <string name="txt_oral_medication">Thuốc uống</string>
+    <string name="txt_insulin">Insulin</string>
+    <string name="txt_pregnant">Mang thai</string>
+    <string name="txt_lactation">Cho con bú</string>
+    <string name="txt_during_period">Trong kỳ kinh</string>
+    <string name="txt_done">Xong</string>
+    <string name="txt_default">Mặc định</string>
+    <string name="txt_during_fasting">Khi nhịn ăn</string>
+    <string name="txt_before_eating">Trước khi ăn</string>
+    <string name="txt_after_eating_1h">Sau khi ăn(1h)</string>
+    <string name="txt_after_eating_2h">Sau khi ăn(2h)</string>
+    <string name="txt_before_bedtime">Trước khi đi ngủ</string>
+    <string name="txt_before_workout">Trước tập luyện</string>
+    <string name="txt_after_wordkout">Sau khi tập luyện</string>
+
+    <string name="title_warning_version">Phiên bản ứng dụng của bạn quá thấp. Vui lòng cập nhật phiên bản mới nhất để trải nghiệm ứng dụng của chúng tôi. Cảm ơn</string>
+    <string name="txt_goto_store">Tôi đồng ý và cập nhật</string>
+    <string name="txt_do_later">Hỏi tôi sau</string>
+    <string name="txt_incorrect_number">Số sai</string>
+
+    <string name="txt_add_data">+ Thêm dữ liệu</string>
+    <string name="txt_chart">Biểu đồ</string>
+    <string name="txt_no_data_heart_rate">Trình theo dõi ngay hoặc thêm bản ghi đầu tiên của bạn để xem số liệu thống kê</string>
+    <string name="txt_tracker_now">Theo dõi ngay</string>
+    <string name="txt_export">Xuất</string>
+    <string name="txt_tapp_to_start">Nhấn để bắt đầu ngay</string>
+    <string name="txt_how_to_use">Cách sử dụng?</string>
+    <string name="txt_bmp">bmp</string>
+    <string name="txt_measure1">Theo dõi.</string>
+    <string name="txt_place">Đặt ngón tay lên máy ảnh</string>
+    <string name="txt_when_the">Khi công cụ tìm chuyển sang màu đỏ nghĩa là bạn đang làm đúng</string>
+    <string name="txt_slow">Chậm</string>
+    <string name="txt_fast">Nhanh</string>
+    <string name="txt_measure_your_heart">Theo dõi nhịp tim của bạn. Giữ nó ổn định!</string>
+    <string name="txt_bpm">BPM</string>
+    <string name="txt_resting_hearte_rate">Nhịp tim khi nghỉ ngơi</string>
+    <string name="txt_request_camera">Vui lòng cho phép máy ảnh sử dụng tính năng này.</string>
+    <string name="txt_instruction">Hướng dẫn</string>
+    <string name="txt_animation">Hoạt hình</string>
+    <string name="txt_intruct_1">Đặt nhẹ một đầu ngón tay lên camera của điện thoại. Đảm bảo rằng nó bao phủ hoàn toàn ống kính (KHÔNG phải đèn pin, vốn rất nóng).</string>
+    <string name="txt_intruct_2">Hãy đứng yên cho đến khi theo dõi xong!</string>
+    <string name="txt_intruct_3">Để có kết quả chính xác, vui lòng theo dõi trong điều kiện ánh sáng tốt hoặc bật đèn pin.</string>
+    <string name="txt_guideline_scanner">Quét mã vạch/mã QR của thực phẩm để biết thông tin chi tiết về những gì bạn ăn.</string>
+    <string name="txt_no_found_app">Không tìm thấy ứng dụng</string>
+</resources>

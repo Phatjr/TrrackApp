@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/bg_layout_type_info"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_15sdp"
+    android:paddingVertical="@dimen/_20sdp"
+    android:paddingLeft="@dimen/_15sdp"
+    android:paddingTop="@dimen/_20sdp"
+    android:paddingRight="@dimen/_15sdp"
+    android:paddingBottom="@dimen/_20sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/txt_bmi_type"
+        android:textColor="#323232"
+        android:textSize="@dimen/_18sdp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_260sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp">
+
+                <View
+                    android:id="@+id/view_color_normal"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_line_bmi_type"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUnder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_bmi_type_1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvDes1"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal"
+                    app:layout_constraintTop_toTopOf="@id/view_color_normal" />
+
+                <TextView
+                    android:id="@+id/tvDes1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_des_bmi_type_1"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/view_color_normal"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal"
+                    app:layout_constraintTop_toBottomOf="@id/tvUnder" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <View
+                    android:id="@+id/view_color_normal2"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_line_bmi_type"
+                    android:backgroundTint="@color/color_bmi_type_2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUnder2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_bmi_type_2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvDes2"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal2"
+                    app:layout_constraintTop_toTopOf="@id/view_color_normal2" />
+
+                <TextView
+                    android:id="@+id/tvDes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_des_bmi_type_2"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/view_color_normal2"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal2"
+                    app:layout_constraintTop_toBottomOf="@id/tvUnder2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <View
+                    android:id="@+id/view_color_normal3"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_line_bmi_type"
+                    android:backgroundTint="@color/color_bmi_type_3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUnder3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_bmi_type_3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvDes3"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal3"
+                    app:layout_constraintTop_toTopOf="@id/view_color_normal3" />
+
+                <TextView
+                    android:id="@+id/tvDes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_des_bmi_type_3"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/view_color_normal3"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal3"
+                    app:layout_constraintTop_toBottomOf="@id/tvUnder3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <View
+                    android:id="@+id/view_color_normal4"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_line_bmi_type"
+                    android:backgroundTint="@color/color_bmi_type_4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUnder4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_bmi_type_4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvDes4"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal4"
+                    app:layout_constraintTop_toTopOf="@id/view_color_normal4" />
+
+                <TextView
+                    android:id="@+id/tvDes4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_des_bmi_type_4"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/view_color_normal4"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal4"
+                    app:layout_constraintTop_toBottomOf="@id/tvUnder4" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <View
+                    android:id="@+id/view_color_normal5"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_line_bmi_type"
+                    android:backgroundTint="@color/color_bmi_type_5"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUnder5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_bmi_type_5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvDes5"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal5"
+                    app:layout_constraintTop_toTopOf="@id/view_color_normal5" />
+
+                <TextView
+                    android:id="@+id/tvDes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_des_bmi_type_5"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/view_color_normal5"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal5"
+                    app:layout_constraintTop_toBottomOf="@id/tvUnder5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <View
+                    android:id="@+id/view_color_normal6"
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_line_bmi_type"
+                    android:backgroundTint="@color/color_bmi_type_6"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvUnder6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_bmi_type_6"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toTopOf="@id/tvDes6"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal6"
+                    app:layout_constraintTop_toTopOf="@id/view_color_normal6" />
+
+                <TextView
+                    android:id="@+id/tvDes6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:text="@string/txt_des_bmi_type_6"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/view_color_normal6"
+                    app:layout_constraintStart_toEndOf="@id/view_color_normal6"
+                    app:layout_constraintTop_toBottomOf="@id/tvUnder6" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/btnGotIt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:background="@drawable/bg_got_it_type_info"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:paddingVertical="@dimen/_12sdp"
+        android:paddingTop="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        android:text="@string/txt_got_it"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_18sdp" />
+</LinearLayout>

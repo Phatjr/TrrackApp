@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_95sdp"
+    android:layout_marginTop="@dimen/_14sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:background="@drawable/bg_item_history"
+    android:layoutDirection="ltr"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_15sdp">
+
+    <LinearLayout
+        android:id="@+id/ll_sys_dia"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtSystolic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="top"
+            android:text="50"
+            android:textColor="#323232"
+            android:textSize="@dimen/_22sdp" />
+
+        <TextView
+            android:id="@+id/txtDiastolic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="bottom"
+            android:text="116"
+            android:textColor="#323232"
+            android:textSize="@dimen/_22sdp" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/viewState"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_toEndOf="@+id/ll_sys_dia"
+        app:cardBackgroundColor="#D72626"
+        app:cardCornerRadius="@dimen/_3sdp"
+        app:cardElevation="0dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_type_pulse"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_toStartOf="@+id/btnEdit"
+        android:layout_toEndOf="@+id/viewState"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTimeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="08:03, Jul 22,2022"
+            android:textColor="#323232"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/txtState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/montserrat_bold"
+            android:maxLines="1"
+            android:text="Hypertensive"
+            android:textColor="#323232"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtPulse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Pulse : 113 BPM"
+            android:textColor="#323232"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/txtTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="@dimen/_2sdp"
+            android:text="#abc"
+            android:textColor="#323232"
+            android:textSize="@dimen/_8sdp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnEdit"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_edit_tracker" />
+</RelativeLayout>

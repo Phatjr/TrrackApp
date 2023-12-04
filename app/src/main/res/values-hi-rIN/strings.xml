@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tracker App</string>
+
+    <string name="txt_home">होम</string>
+    <string name="txt_info">जानकारी</string>
+    <string name="txt_setting">सेटिंग्स</string>
+    <string name="txt_signature">हस्ताक्षर</string>
+    <string name="txt_crazy">Crazy</string>
+    <string name="txt_melt">पिघलें</string>
+    <string name="txt_run">चलाएं</string>
+    <string name="txt_lazy">आलसी</string>
+    <string name="txt_diet">आहार</string>
+    <string name="txt_nightmare">दुःस्वप्न</string>
+    <string name="txt_right">दाएं</string>
+    <string name="txt_left">बाएं</string>
+
+    <string name="txt_remind_me_to_record">मुझे रिकॉर्ड करने की याद दिलाएं</string>
+    <string name="txt_blood_pressure">रक्तचाप</string>
+    <string name="txt_select_date">कृपया कोई दिनांक चुनें</string>
+    <string name="txt_heart_rate">हृदय गति</string>
+    <string name="txt_blood_sugar">रक्त शर्करा</string>
+    <string name="txt_weight_and_bmi">वजन और amp; बीएमआई </string>
+
+    <string name="txt_language_options">भाषा विकल्प</string>
+    <string name="txt_export_as_file">फ़ाइल के रूप में निर्यात करें</string>
+    <string name="txt_rate_us">हमें रेट करें</string>
+    <string name="txt_share_with_friends">मित्रों के साथ साझा करें</string>
+    <string name="txt_feedback">फ़ीडबैक भेजें</string>
+    <string name="txt_privacy_policy">गोपनीयता नीति</string>
+    <string name="txt_your_data">आपका डेटा</string>
+    <string name="txt_food_scanner">खाद्य स्कैनर</string>
+    <string name="txt_tell_us_your_gender">हमें अपना लिंग बताएं</string>
+    <string name="txt_female">महिला</string>
+    <string name="txt_male">पुरुष</string>
+    <string name="txt_others">अन्य</string>
+    <string name="txt_age">आयु</string>
+    <string name="txt_height">ऊंचाई</string>
+    <string name="txt_weight">वजन</string>
+    <string name="txt_save">सहेजें</string>
+    <string name="txt_title_info_1">इसे कैसे मापा जाता है?</string>
+    <string name="txt_title_info_2">रक्तचाप क्या है?</string>
+    <string name="txt_title_info_3">उच्च रक्तचाप के लिए जीवनशैली</string>
+    <string name="txt_title_info_4">रक्तचाप के प्रकार</string>
+    <string name="txt_title_info_5">हाइपोटेंशन</string>
+    <string name="txt_title_info_6">हाइपरटेंशन: यह एक रसूखदार कारखाना क्यों है?</string>
+    <string name="txt_title_info_7">उच्च रक्तचाप मस्तिष्क को कैसे प्रभावित करता है</string>
+    <string name="txt_title_info_8">रक्तचाप गुर्दे को कैसे प्रभावित करता है?</string>
+    <string name="txt_title_info_9">रक्तचाप कैसे प्रभावित करता है अन्य अंग?</string>
+    <string name="txt_title_info_10">उच्च रक्तचाप का निदान</string>
+    <string name="txt_title_info_11">सामान्य रक्त शर्करा स्तर क्या हैं?</string>
+    <string name="txt_title_info_12">क्या है मधुमेह?</string>
+    <string name="txt_title_info_13">मधुमेह कितना आम है?</string>
+    <string name="txt_title_info_14">कैसे पता करें कि आपको मधुमेह है या नहीं?</string>
+    <string name="txt_title_info_15">मधुमेह कितने प्रकार के होते हैं?</string>
+    <string name="txt_title_info_16">हृदय गति के बारे में जानें</string>
+    <string name="txt_back">पीछे</string>
+
+    <string name="txt_info_des_1_1">रक्तचाप को स्फिग्मोमैनोमीटर नामक उपकरणों के माध्यम से मापा जाता है, जिसे लोकप्रिय रूप से ब्लड प्रेशर मॉनिटर के रूप में जाना जाता है, जिसे नियामक सत्यापन और अनुमोदन से गुजरना होगा।</string>
+    <string name="txt_info_des_1_2">यह सुनिश्चित करने के लिए कि प्राप्त माप सही है, आपको निर्देशों की एक श्रृंखला का पालन करना चाहिए: \10– चूंकि दिन और रात में रक्तचाप बदलता है, हमेशा एक ही समय पर माप लें\10– एक शांत कमरा ढूंढें, बिना शोर या रुकावट के, 20-25 डिग्री के तापमान के साथ सी. आपको निश्चिंत होना चाहिए। माप लेने से पहले आधे घंटे तक न पियें, न खाएं, धूम्रपान करें या शारीरिक व्यायाम न करें। माप लेने से पहले 5 मिनट आराम करें। कुर्सी के पीछे अपनी पीठ के साथ आराम से बैठें, अपने पैरों को क्रॉस न करें और ऐसे कपड़े उतार दें जो आपकी बांह पर दब जाएं। अपने हाथ की हथेली को ऊपर की ओर रखें और आपकी कोहनी आपके हृदय के स्तर पर थोड़ी मुड़ी हुई हो। यदि आप कलाई के ब्लड प्रेशर मॉनिटर का उपयोग करते हैं, तो कलाई का पट्टा अपने दिल के स्तर पर रखें। माप के दौरान बात न करें।</string>
+
+    <string name="txt_info_des_2_1">रक्तचाप या ब्लड प्रेशर रक्त वाहिकाओं के माध्यम से रक्त के संचार के लिए आवश्यक है और इस प्रकार सभी ऊतकों तक आवश्यक ऑक्सीजन और पोषक तत्वों को ले जाने में सक्षम होता है। शरीर का । इसे उस बल के रूप में परिभाषित किया जा सकता है जो रक्त धमनियों की दीवारों पर लगाता है, जो उच्चतम (सिस्टोलिक दबाव) होता है जब हृदय इसे धमनियों में पंप करता है और दिल की धड़कनों के बीच सबसे कम (डायस्टोलिक दबाव)। रक्तचाप को मापने के लिए इन दो मूल्यों (सिस्टोलिक और डायस्टोलिक) का उपयोग किया जाता है।</string>
+    <string name="txt_info_des_2_2">जब सामान्य स्वास्थ्य की निगरानी की बात आती है, तो रक्तचाप की जांच की जानी चाहिए, क्योंकि यदि यह सामान्य से ऊपर है (उच्च रक्तचाप) , इसका मतलब गंभीर बीमारियों (हृदय रोग, दिल का दौरा, स्ट्रोक, गुर्दे की विफलता, आदि) का एक महत्वपूर्ण जोखिम हो सकता है। निम्न रक्तचाप (हाइपोटेंशन) को नियंत्रित करना भी महत्वपूर्ण है क्योंकि इससे भ्रम, चक्कर आना, चक्कर आना, बेहोशी, कमजोरी या उनींदापन हो सकता है।</string>
+
+    <string name="txt_info_des_3_1">विशेषज्ञों के अनुसार, उच्च रक्तचाप को प्रभावित करने वाले कारक हैं जिसे हम नियंत्रित नहीं कर सकते, जैसे बुढ़ापा, रजोनिवृत्ति या आनुवंशिकी। हालाँकि, हम अन्य कारकों का मुकाबला करके कार्य कर सकते हैं जो उच्च रक्तचाप की शुरुआत को प्रभावित करते हैं जैसे मोटापा, एक गतिहीन जीवन शैली, खराब आहार या उच्च नमक का सेवन। इसलिए, हमारे रक्तचाप के आंकड़ों को नियंत्रित करने के लिए, दो बुनियादी नियम हैं अपने आहार पर ध्यान देना, नमक को खत्म करना और भूमध्यसागरीय आहार का पालन करना, और व्यायाम करना।</string>
+    <string name="txt_info_des_3_2">जहाँ तक की बात है बाद की सिफारिश के बाद, विश्व स्वास्थ्य संगठन (WHO) ने इसे तीन दशकों के लिए रक्तचाप के मूल्यों को कम करने के उद्देश्य से सबसे महत्वपूर्ण गैर-औषधीय उपायों में शामिल किया है। विशेष रूप से, यह अनुशंसा की जाती है कि वयस्कों को प्रति सप्ताह कम से कम 150 मिनट की मध्यम-तीव्रता वाली एरोबिक शारीरिक गतिविधि या 75 मिनट की तीव्र गतिविधि का अभ्यास करना चाहिए।</string>
+    <string name="txt_info_des_3_3">आहार के संबंध में, मुख्य बात यह है कि एक दिन में पाँच भाग फल और सब्ज़ियाँ खाएँ, वसा कम करें - विशेष रूप से संतृप्त वसा - और नमक का सेवन एक दिन में 5 ग्राम से कम करें - एक चम्मच कॉफी - या इसे पूरी तरह से समाप्त कर दें, इसे सोडियम मुक्त जड़ी बूटियों और मसालों से बदल दें। एक और सिफारिश प्रसंस्कृत खाद्य पदार्थों को आहार से बाहर करने की है, जिनमें बड़ी मात्रा में नमक होता है। और जहाँ तक शराब की बात है, इसके अधिक सेवन से रक्तचाप में वृद्धि हो सकती है, इसलिए इससे बचना भी एक अच्छा विचार है। आहार की तलाश करने वालों के लिए, आप इसे इस लिंक पर पा सकते हैं।</string>
+    <string name="txt_info_des_3_4">इसके अलावा, विशेषज्ञ हमें याद दिलाते हैं कि यदि धूम्रपान करने वालों में उच्च रक्तचाप दिखाई देता है, तो स्ट्रोक या मायोकार्डियल पीड़ित होने की संभावना होती है। रोधगलन गुणा किया जाता है। इसीलिए धूम्रपान छोड़ना भी आवश्यक है।</string>
+
+
+    <string name="txt_info_des_4_1">रक्तचाप के मूल्यों के अनुसार (पहला सिस्टोलिक या उच्च रक्तचाप है और दूसरा डायस्टोलिक या निम्न रक्तचाप है), यह निम्नानुसार वर्गीकृत किया गया है:</string>
+    <string name="txt_info_des_4_2">हाइपोटेंशन SIS। 90 या डीआईए से कम। 60 से कम सामान्य SIS। 90-120 और डीआईए। 60-80 प्री-हाइपरटेंशन एसआईएस। 120-140 और डीआईए। 80-90 उच्च रक्तचाप चरण 1: SIS। 140-160 या डीआईए। 90-100 उच्च रक्तचाप चरण 2: SIS। 160 या डीआईए से अधिक। 100 से अधिक।</string>
+    <string name="txt_info_des_4_3">यह ध्यान में रखा जाना चाहिए कि रक्तचाप मान पूरे दिन अपरिवर्तित नहीं रहता है, लेकिन विभिन्न कारकों के अनुसार उतार-चढ़ाव होता है। यह वर्गीकरण पैथोलॉजिकल राज्यों के अस्तित्व या नहीं को परिभाषित करता है। हालाँकि, ऐसी स्थितियाँ होती हैं जिनमें रक्तचाप में एकबारगी वृद्धि या गिरावट हो सकती है जिसका यह अर्थ नहीं है कि रक्तचाप की समस्या है।</string>
+    <string name="txt_info_des_4_4">इस प्रकार, तनाव या खतरनाक एड्रेनालाईन और नॉरएड्रेनालाईन के ऊंचे स्राव या पैरासिम्पेथेटिक तंत्रिका तंत्र की सक्रियता के परिणामस्वरूप स्थितियां एक क्षणिक लेकिन महत्वपूर्ण वृद्धि उत्पन्न कर सकती हैं, कारक जो हृदय गति में वृद्धि में योगदान करते हैं। इसके विपरीत, निर्जलीकरण, शराब का सेवन, कुछ दवाओं का उपयोग, हाइपोग्लाइकेमिया या सदमा (एनाफिलेक्सिस, दिल का दौरा, आदि), अन्य कारणों से रक्तचाप में अचानक गिरावट ला सकता है।</string>
+
+    <string name="txt_info_des_5_1"> यदि आपकी रीडिंग 90/60 mmHg से कम है, तो आप शायद हाइपोटेंशन हैं। आपको किसी भी उपचार की आवश्यकता नहीं है, क्योंकि निम्न रक्तचाप से कोई नुकसान नहीं होता है और आमतौर पर इसके कोई लक्षण नहीं होते हैं। हालांकि, जब आपका रक्तचाप अक्सर कुछ दवाओं के कारण अचानक 20 mmHg से ऊपर चला जाता है, या आपको चक्कर आना, बेहोशी, थकान आदि महसूस होती है, तो आपको उपचार की तलाश करनी चाहिए।</string>
+
+    <string name="txt_info_des_6_1">उच्च रक्तचाप एक डालता है हृदय पर अधिक तनाव, जो अतिरिक्त प्रयास से निपटने के लिए अपनी मांसपेशियों (बाएं निलय अतिवृद्धि) को बढ़ाकर प्रतिक्रिया करता है। मांसपेशियों के द्रव्यमान में यह वृद्धि हानिकारक होती है क्योंकि यह रक्त प्रवाह में समान वृद्धि के साथ नहीं होती है और इससे कोरोनरी अपर्याप्तता और एनजाइना पेक्टोरिस हो सकता है। इसके अलावा, हृदय की मांसपेशियां अधिक चिड़चिड़ी हो जाती हैं और अतालता अधिक होती है।</string>
+    <string name="txt_info_des_6_2">- उन रोगियों में जिन्हें पहले से ही हृदय संबंधी समस्या है, उच्च रक्तचाप क्षति को बढ़ा सकता है। यह एथेरोस्क्लेरोसिस (धमनियों में कोलेस्ट्रॉल का संचय) और घनास्त्रता की घटना को बढ़ावा देता है (मायोकार्डियल इन्फ्रक्शन या सेरेब्रल इन्फ्रक्शन हो सकता है)।</string>
+
+    <string name="txt_info_des_7_1">जब धमनियां कठोर और संकीर्ण हो जाती हैं, तो रक्त की आपूर्ति अपर्याप्त हो जाती है। और मस्तिष्क रोधगलन (स्ट्रोक या इस्केमिक स्ट्रोक) की ओर जाता है। उच्च रक्तचाप भी धमनी को फटने का कारण बन सकता है, जिसके परिणामस्वरूप मस्तिष्क रक्तस्राव (स्ट्रोक या रक्तस्रावी स्ट्रोक) हो सकता है।</string>
+
+    <string name="txt_info_des_8_1">उच्च रक्तचाप गुर्दे को रक्त की आपूर्ति करने वाली धमनियों को सख्त कर देता है। लेकिन यह किडनी को भी नुकसान पहुंचाता है, जिससे किडनी फेल हो सकती है, यहां तक ​​कि डायलिसिस की भी जरूरत पड़ सकती है। दूसरी ओर, गुर्दे की क्षति से रक्तचाप बढ़ सकता है।</string>
+
+    <string name="txt_info_des_9_1">यदि यह पैरों की धमनियों को प्रभावित करता है, तो चलने पर दर्द होता है।</string>
+    <string name="txt_info_des_9_2">रेटिना की धमनियों को नुकसान होने से दृष्टि बाधित हो सकती है।</string>
+    <string name="txt_info_des_9_3">पुरुषों में यह नपुंसकता पैदा कर सकता है।</string>
+
+    <string name="txt_info_des_10_1">के अनुसार विशेषज्ञ, ऐसे कारक हैं जो उच्च रक्तचाप को प्रभावित करते हैं जिन्हें हम नियंत्रित नहीं कर सकते, जैसे उम्र बढ़ना, रजोनिवृत्ति या आनुवंशिकी। हालाँकि, हम अन्य कारकों का मुकाबला करके कार्य कर सकते हैं जो उच्च रक्तचाप की शुरुआत को प्रभावित करते हैं जैसे मोटापा, एक गतिहीन जीवन शैली, खराब आहार या उच्च नमक का सेवन। इसलिए, हमारे रक्तचाप के आंकड़ों को नियंत्रित करने के लिए, दो बुनियादी नियम हैं हमारे आहार पर ध्यान देना, नमक को खत्म करना और भूमध्यसागरीय आहार का पालन करना, और व्यायाम करना</string>
+    <string name="txt_info_des_10_2">बाद वाले के लिए सिफारिश के अनुसार, विश्व स्वास्थ्य संगठन (WHO) ने इसे तीन दशकों के लिए रक्तचाप मूल्यों को कम करने के उद्देश्य से सबसे महत्वपूर्ण गैर-औषधीय उपायों में शामिल किया है। विशेष रूप से, यह अनुशंसा की जाती है कि वयस्कों को प्रति सप्ताह कम से कम 150 मिनट की मध्यम-तीव्रता वाली एरोबिक शारीरिक गतिविधि या 75 मिनट की तीव्र गतिविधि का अभ्यास करना चाहिए।</string>
+
+    <string name="txt_info_des_11_1">ग्लूकोज की मात्रा इस बात पर निर्भर करती है कि कब, आपने क्या और कितना खाया है, और आपने व्यायाम किया है या नहीं।</string>
+    <string name="txt_info_des_11_2">वयस्कों (मधुमेह के बिना) के लिए सामान्य रक्त शर्करा का स्तर जिन्होंने कम से कम 8 घंटे (उपवास) नहीं खाया है ) 100 mg/dL से कम है। और खाने के दो घंटे बाद मधुमेह रहित वयस्कों के लिए स्तर 90 से 110 मिलीग्राम/डीएल
+    है200 मिलीग्राम / डीएल प्रति दिन। किशोरों का औसत रक्त शर्करा स्तर दिन के दौरान 70 और 150 mg/dL के बीच होना चाहिए।</string>
+
+    <string name="txt_info_des_12_1">मधुमेह एक चयापचय रोग है जो इंसुलिन की कमी, इंसुलिन प्रतिरोध, के परिणामस्वरूप उच्च रक्त शर्करा का कारण बनता है। आदि।</string>
+    <string name="txt_info_des_12_2">ग्लूकोज हमारे दैनिक कार्य का एक महत्वपूर्ण हिस्सा है। हमारा शरीर ऊर्जा के लिए इसका उपयोग करता है लेकिन इंसुलिन नामक हार्मोन की आवश्यकता होती है, जो अग्न्याशय द्वारा निर्मित होता है। जब किसी को मधुमेह होता है, तो उत्पादित इंसुलिन सही तरीके से काम नहीं करता है, जो रक्तप्रवाह में अधिक ग्लूकोज छोड़ता है।</string>
+    <string name="txt_info_des_12_3">मधुमेह या मधुमेह एक गंभीर और जटिल स्थिति है। मधुमेह वाले लोगों को इसके साथ जीवन भर रहना पड़ता है क्योंकि वर्तमान में इसका कोई इलाज नहीं है।</string>
+
+    <string name="txt_info_des_13_1">मधुमेह दुनिया की सबसे तेजी से बढ़ती पुरानी बीमारियों में से एक है।</string>
+    <string name="txt_info_des_13_2">1980 में, दुनिया भर में 108 मिलियन लोगों को मधुमेह था। 2014 तक, यह संख्या बढ़कर 422 मिलियन हो गई थी। (विश्व स्वास्थ्य संगठन [WHO], 2020)</string>
+    <string name="txt_info_des_13_3">2045 तक दुनिया भर में अनुमानित 700 मिलियन वयस्कों को मधुमेह होगा। (अंतर्राष्ट्रीय मधुमेह संघ [आईडीएफ], 2020)</string>
+    <string name="txt_info_des_13_4">मधुमेह की प्रवृत्ति बढ़ती जा रही है। टाइप 2 मधुमेह सबसे तेज गति से बढ़ रहा है।</string>
+
+    <string name="txt_info_des_14_1">किसी भी व्यक्ति में एक जैसे लक्षण नहीं होते हैं। आप जो अनुभव करते हैं वह किसी अन्य व्यक्ति के अनुभव से बिल्कुल मेल नहीं खाएगा। यदि आपके पास निम्न लक्षणों में से कोई भी है, तो आपको अपने रक्त शर्करा का परीक्षण करने के लिए डॉक्टर को दिखाना चाहिए।</string>
+    <string name="txt_info_des_14_2">। बहुत प्यास लग रही है \10. बहुत भूख लग रही है \10. बहुत थकान महसूस करना \10· खूब पेशाब करना, खासकर रात में \10। बिना कोशिश किए वजन कम करें \10. धुंधली दृष्टि है कट और घाव हैं जो धीरे-धीरे ठीक होते हैं \10। हाथ या पैर सुन्न या झुनझुनी होना \10। सामान्य से अधिक संक्रमण होना \10. मतली, उल्टी, या पेट में दर्द हो \10(टाइप 1 मधुमेह)</string>
+
+    <string name="txt_info_des_15_1">मधुमेह के तीन सामान्य प्रकार होते हैं: प्रकार 1, प्रकार 2 और गर्भकालीन।</string>
+    <string name="txt_info_des_15_2">टाइप 1 मधुमेह अक्सर बच्चों और किशोरों में होता है। टाइप 1 मधुमेह वाले लोगों में रक्त शर्करा का स्तर बहुत अधिक होता है, जिसका अर्थ है कि उन्हें रक्त शर्करा के स्तर को नियंत्रण में रखने के लिए दैनिक इंसुलिन इंजेक्शन की आवश्यकता होती है
+    । सभी मधुमेह के 90% मामले। लेकिन उचित उपचार और देखभाल के साथ, लोग टाइप 2 मधुमेह के साथ अच्छा कर सकते हैं और इसे विकसित करने के अपने जोखिम को कम कर सकते हैं।</string>
+    <string name="txt_info_des_15_4">गर्भावधि मधुमेह गर्भावस्था के दौरान विकसित हो सकती है, जो अक्सर पूर्व मधुमेह और मधुमेह का पारिवारिक इतिहास। गर्भकालीन मधुमेह आमतौर पर गर्भावस्था के बाद गायब हो जाता है, लेकिन प्रभावित महिलाओं और उनके बच्चों दोनों को जीवन में बाद में टाइप 2 मधुमेह होने का खतरा बढ़ जाता है।</string>
+
+    <string name="txt_info_des_16_1">हृदय गति, जिसे नाड़ी भी कहा जाता है, संख्या है समय की अवधि (आमतौर पर एक मिनट) के भीतर दिल कितनी बार धड़कता है।</string>
+    <string name="txt_info_des_16_2">जब दिल धड़कता है, तो हमारा रक्त आपके शरीर के बाकी हिस्सों में पंप किया जाता है, जिससे हर किसी को पर्याप्त ऑक्सीजन मिलती है। कोशिका। इस प्रक्रिया के माध्यम से, कोशिकाएं ऊर्जा और पोषण प्राप्त कर सकती हैं।</string>
+    <string name="txt_info_des_16_3">रक्त प्रवाहित करने के लिए दिल की धड़कन की आवृत्ति अलग-अलग होती है क्योंकि ऑक्सीजन की आवश्यकता में परिवर्तन होता है। उदाहरण के लिए, जब हम व्यायाम कर रहे होते हैं, तो कोशिकाएं अधिक ऑक्सीजन और ऊर्जा का उपभोग करती हैं। इसलिए, हमारा दिल सामान्य से अधिक तेजी से धड़कता है।</string>
+    <string name="txt_info_des_16_4">हृदय गति को आराम की हृदय गति और लक्षित हृदय गति में विभाजित किया जाता है। जब हम आराम कर रहे होते हैं तो पहला प्रकार हमारी हृदय गति का वर्णन (वर्णन) करता है। उत्तरार्द्ध का उपयोग व्यायाम करते समय हमारे शरीर का मूल्यांकन करने के लिए किया जाता है।</string>
+    <string name="txt_welcome_to_back">वापसी पर स्वागत है</string>
+    <string name="txt_please_enter_content">कृपया सामग्री दर्ज करें!</string>
+    <string name="txt_please_enter_valid_content">अमान्य सामग्री!</string>
+    <string name="txt_invalid_height">अमान्य आयु या ऊंचाई या वजन मान। कृपया पुन: प्रयास करें!</string>
+    <string name="txt_comming_soon">जल्द आ रहा है</string>
+    <string name="txt_please_add_new_record">आंकड़े देखने के लिए कृपया नया रिकॉर्ड जोड़ें।</string>
+    <string name="txt_add_record"> रिकॉर्ड जोड़ें</string>
+    <string name="txt_pulse">पल्स</string>
+    <string name="txt_history">इतिहास</string>
+    <string name="txt_min">न्यूनतम</string>
+    <string name="txt_average">औसत</string>
+    <string name="txt_latest">नवीनतम</string>
+
+    <string name="txt_max">अधिकतम</string>
+    <string name="txt_systolic">सिस्टोलिक</string>
+    <string name="txt_diastolic">डायस्टोलिक</string>
+    <string name="txt_all_history">सारा इतिहास</string>
+    <string name="txt_new_record">नया रिकॉर्ड</string>
+
+    <string name="txt_no_chart_data">कोई चार्ट डेटा उपलब्ध नहीं है</string>
+    <string name="txt_hypotension">हाइपोटेंशन</string>
+
+    <string name="txt_sys_180_or_dia_120">SYS &gt; 180 या डीआईए &gt; 120</string>
+    <string name="txt_date_time">तारीख और amp; समय</string>
+    <string name="txt_note">ध्यान दें</string>
+    <string name="txt_today">आज</string>
+    <string name="txt_got_it">मिल गया!</string>
+    <string name="txt_blood_pressure_type">ब्लड प्रेशर टाइप:</string>
+    <string name="txt_normal_blood_pressure">सामान्य ब्लड प्रेशर</string>
+
+    <string name="txt_blood_level_1">SYS &lt; 120 और डीआईए &lt; 80</string>
+    <string name="txt_blood_level_2">SYS 120-129 और DIA &lt; 80</string>
+    <string name="txt_blood_level_3">SYS 130+ या DIA 80+</string>
+    <string name="txt_blood_level_4">SYS 140+ या DIA 90+</string>
+    <string name="txt_blood_level_5">SYS 180+ और/या DIA 120+</string>
+
+    <string name="txt_diagnose_level_1">सामान्य रक्त \10दबाव</string>
+    <string name="txt_diagnose_level_2">बढ़ा हुआ रक्त \10दबाव</string>
+    <string name="txt_diagnose_level_3">उच्च रक्तचाप - चरण 1</string>
+    <string name="txt_diagnose_level_4">उच्च रक्तचाप - चरण 2</string>
+    <string name="txt_diagnose_level_5">खतरनाक रूप से उच्च रक्तचाप</string>
+
+    <string name="txt_elevated_blood_pressure">बढ़ा हुआ ब्लड प्रेशर</string>
+    <string name="txt_high_blood_pressure_stage_1">हाई ब्लड प्रेशर - स्टेज 1</string>
+    <string name="txt_high_blood_pressure_stage_2">हाई ब्लड प्रेशर - स्टेज 2</string>
+    <string name="txt_notes">नोट्स</string>
+    <string name="txt_edit_add">संपादित करें/जोड़ें</string>
+    <string name="txt_no_record">यहां कोई रिकॉर्ड नहीं है!</string>
+    <string name="txt_edit_record"> रिको संपादित करें rd</string>
+    <string name="txt_delete_the_tag">टैग हटाएं?</string>
+
+    <string name="txt_are_you_sure_to_delete_this_tag">क्या आप वाकई इस टैग को हटाना चाहते हैं?</string>
+    <string name="txt_delete">हटाएं </string>
+    <string name="txt_cancel">रद्द करें</string>
+
+    <string name="txt_delete_confirm">पुष्टिकरण हटाएं</string>
+    <string name="txt_are_you_sure_to_delete_this_record">क्या आप वाकई इस रिकॉर्ड को हटाना चाहते हैं?</string>
+    <string name="txt_long_press_and_drag_to_reorder">लंबी प्रेस \n और पुनः व्यवस्थित करने के लिए खींचें</string>
+    <string name="txt_add_new">नया जोड़ें</string>
+    <string name="txt_add_note">नोट जोड़ें</string>
+    <string name="txt_maximum_20_characters">अधिकतम 20 वर्ण।</string>
+    <string name="txt_please_enter_something">कृपया कुछ दर्ज करें</string>
+    <string name="txt_add">+ जोड़ें</string>
+    <string name="txt_tracker">ट्रैकर</string>
+    <string name="txt_bmi">BMI</string>
+    <string name="txt_language">भाषा</string>
+    <string name="txt_press_again_to_exit">बाहर निकलने के लिए दोबारा दबाएं</string>
+
+    <string name="txt_state"> राज्य </string>
+
+    <string name="txt_pre_diabetes">पूर्व-मधुमेह</string>
+    <string name="txt_diabetes">मधुमेह</string>
+    <string name="txt_low">कम</string>
+    <string name="txt_normal">सामान्य</string>
+    <string name="txt_bmi_type_1"> अंडर एरवेट </string>
+    <string name="txt_bmi_type_2"> सामान्य वजन </string>
+    <string name="txt_bmi_type_3"> अधिक वजन </string>
+    <string name="txt_bmi_type_4"> मोटे वर्ग I</string>
+    <string name="txt_bmi_type_5">मोटा वर्ग II</string>
+    <string name="txt_bmi_type_6">मोटा वर्ग III</string>
+    <string name="txt_bmi_type">BMI प्रकार</string>
+    <string name="txt_des_bmi_type_1">नीचे 18.5</string>
+    <string name="txt_des_bmi_type_2">18.5 - 24.5</string>
+    <string name="txt_des_bmi_type_3">25.0 - 29.9</string>
+    <string name="txt_des_bmi_type_4">30.0 - 34.9</string>
+    <string name="txt_des_bmi_type_5">35.0 - 39.9</string>
+    <string name="txt_des_bmi_type_6">40 से ऊपर</string>
+    <string name="txt_range_height">1-255cm में ऊंचाई</string>
+    <string name="txt_range_weight">वजन 1-255 किग्रा में</string>
+    <string name="txt_after_break_fast">नाश्ते के बाद</string>
+    <string name="txt_before_break_fast">नाश्ते से पहले</string>
+    <string name="txt_after_lunch">बाद में दोपहर का भोजन </string>
+    <string name="txt_before_lunch"> दोपहर के भोजन से पहले </string>
+    <string name="txt_after_dinner">डिनर के बाद</string>
+    <string name="txt_before_dinner">डिनर से पहले</string>
+    <string name="txt_morning">सुबह</string>
+
+    <string name="txt_please_enter_valid_blood_sugar_1">कृपया एक मान्य रक्त शर्करा दर्ज करें 18.0~35.0 mmol/l</string>
+    <string name="txt_please_enter_valid_blood_sugar_2">कृपया एक मान्य रक्त शर्करा 18.0 दर्ज करें~ 630.0 mg/dL</string>
+    <string name="txt_feeling_good">अच्छा लग रहा है</string>
+    <string name="txt_un_comfortable">असुविधाजनक</string>
+    <string name="txt_oral_medication">मौखिक दवा</string>
+    <string name="txt_insulin">Insulin</string>
+    <string name="txt_pregnant">गर्भवती</string>
+    <string name="txt_lactation">स्तनपान</string>
+    <string name="txt_during_period">अवधि के दौरानस्ट्रिंग</string>
+    <string name="txt_done"> हो गया </string>
+    <string name="txt_default">Default</string>
+    <string name="txt_during_fasting">उपवास के दौरान</string>
+    <string name="txt_before_eating">खाने से पहले</string>
+    <string name="txt_after_eating_1h">खाने के बाद (1h)</string>
+    <string name="txt_after_eating_2h">खाने के बाद (2h)</string>
+    <string name="txt_before_bedtime">सोने से पहले</string>
+    <string name="txt_before_workout">पहले कसरत </string>
+    <string name="txt_after_wordkout">कसरत के बाद</string>
+
+    <string name="title_warning_version">आपका एप्लिकेशन संस्करण बहुत कम है। कृपया हमारे ऐप का अनुभव करने के लिए नवीनतम संस्करण को अपडेट करें। धन्यवाद</string>
+    <string name="txt_goto_store">मैं सहमत हूं और अपडेट के लिए जाता हूं</string>
+    <string name="txt_do_later">मुझसे बाद में पूछें</string>
+
+    <string name="txt_info_des_11_3">6 साल से कम उम्र के बच्चों के लिए स्वस्थ रक्त शर्करा का स्तर प्रति दिन 80 से 200 mg/dL की सीमा में होना चाहिए। दिन के दौरान किशोरों का औसत रक्त शर्करा स्तर 70 और 150 mg/dL के बीच होना चाहिए।</string>
+    <string name="txt_info_des_15_3">टाइप2 मधुमेह वयस्कों में अधिक आम है और सभी मधुमेह के मामलों में लगभग 90% इसका कारण है। लेकिन उचित उपचार और देखभाल के साथ, लोग टाइप 2 मधुमेह के साथ अच्छा कर सकते हैं और इसके विकसित होने के अपने जोखिम को कम कर सकते हैं।</string>
+    <string name="txt_incorrect_number">गलत संख्या</string>
+    <string name="txt_add_data">+ डेटा जोड़ें</string>
+    <string name="txt_chart">चार्ट</string>
+    <string name="txt_no_data_heart_rate">अभी ट्रैकर करें या आंकड़े देखने के लिए अपना पहला रिकॉर्ड जोड़ें</string>
+    <string name="txt_tracker_now">अब ट्रैकर करें</string>
+    <string name="txt_export">निर्यात करें</string>
+    <string name="txt_tapp_to_start">अभी शुरू करने के लिए टैप करें</string>
+    <string name="txt_how_to_use">कैसे उपयोग करें?</string>
+    <string name="txt_bmp">bmp</string>
+    <string name="txt_measure1">ट्रैकिंग।</string>
+    <string name="txt_place">अपनी उंगली कैमरे पर रखें</string>
+    <string name="txt_when_the">जब फाइंडर लाल हो जाता है, तो आप इसे सही कर रहे हैं</string>
+    <string name="txt_slow">धीमा</string>
+    <string name="txt_fast">तेज</string>
+    <string name="txt_measure_your_heart">अपनी हृदय गति ट्रैक करना। इसे स्थिर रखें!</string>
+    <string name="txt_bpm">बीपीएम</string>
+    <string name="txt_resting_hearte_rate">आराम की हृदय गति</string>
+    <string name="txt_request_camera">कृपया कैमरे को इस सुविधा का उपयोग करने की अनुमति दें।</string>
+    <string name="txt_instruction">निर्देश</string>
+    <string name="txt_animation">एनिमेशन</string>
+    <string name="txt_intruct_1">फोन कैमरे पर धीरे से एक उंगली रखें। सुनिश्चित करें कि यह लेंस को पूरी तरह से कवर करता है (टॉर्च नहीं, जो गर्म है)।</string>
+    <string name="txt_intruct_2">ट्रैकिंग पूरी होने तक स्थिर रहें!</string>
+    <string name="txt_intruct_3">सटीक परिणाम के लिए, कृपया अच्छी रोशनी में या टॉर्च चालू रखते हुए ट्रैकर करें।</string>
+    <string name="txt_guideline_scanner">आप क्या खाते हैं इसका विवरण प्राप्त करने के लिए खाद्य बारकोड/क्यूआर कोड स्कैन करें।</string>
+    <string name="txt_no_found_app">कोई ऐप नहीं मिला</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <LinearLayout
+                android:id="@+id/btnHeartRate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_item_menu_home"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/imghHeartRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieView"
+                        android:layout_width="@dimen/_130sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center|center_vertical"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:visibility="visible"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="icon_heartbeat.json"
+                        app:lottie_loop="true" />
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_75sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        android:layout_gravity="bottom|end">
+
+                        <View
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_gravity="center_vertical|center"
+                            android:background="@drawable/bg_circle_blue"
+                            android:backgroundTint="@color/black" />
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:rotation="-45"
+                            android:visibility="visible"
+                            app:lottie_autoPlay="true"
+                            app:lottie_fileName="icon_fingerprint.json"
+                            app:lottie_loop="true" />
+                    </FrameLayout>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvHeartRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_pro_rounded"
+                    android:text="@string/txt_heart_rate"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/btnBloodPressure"
+                    style="@style/ItemMenuHome"
+                    android:background="@drawable/bg_item_menu_home">
+
+                    <TextView
+                        style="@style/TextMenuHome"
+                        android:text="@string/txt_blood_pressure" />
+
+                    <ImageView
+                        style="@style/ItemIconHome"
+                        android:src="@drawable/ic_icon_pressure" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnFoodScanner"
+                    style="@style/ItemMenuHome"
+                    android:background="@drawable/bg_item_menu_home">
+
+                    <TextView
+                        style="@style/TextMenuHome"
+                        android:text="@string/txt_food_scanner" />
+
+                    <ImageView
+                        style="@style/ItemIconHome"
+                        android:src="@drawable/ic_icon_scanner" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/btnBMI"
+                    style="@style/ItemMenuHome"
+                    android:background="@drawable/bg_btn_bmi">
+
+                    <TextView
+                        style="@style/ItemIconHome"
+                        android:text="@string/txt_weight_and_bmi" />
+
+                    <ImageView
+                        style="@style/ItemIconHome"
+                        android:src="@drawable/ic_weight" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnBloodSugar"
+                    style="@style/ItemMenuHome"
+                    android:background="@drawable/bg_btn_blood_sugar">
+
+                    <TextView
+                        style="@style/ItemIconHome"
+                        android:text="@string/txt_blood_sugar" />
+
+                    <ImageView
+                        style="@style/ItemIconHome"
+                        android:src="@drawable/ic_bloodsugar" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

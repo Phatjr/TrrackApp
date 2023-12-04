@@ -1,0 +1,391 @@
+<resources>
+    <string name="app_name">Blood Pressure Tracker</string>
+
+    <string name="link_privacy_policy" translatable="false">https://pages.flycricket.io/blood-pressure-track/privacy.html</string>
+
+    <string name="txt_email_feedback" translatable="false">teammarketing@lutech.ltd</string>
+
+
+    <string name="english" translatable="false">English</string>
+    <string name="vietnamese" translatable="false">Tiếng Việt</string>
+    <string name="french" translatable="false">Français</string>
+    <string name="india" translatable="false">हिन्दी</string>
+    <string name="spain" translatable="false">Español</string>
+    <string name="portugal" translatable="false">Português</string>
+    <string name="germany" translatable="false">Deutsch</string>
+    <string name="italy" translatable="false">Italiano</string>
+    <string name="japan" translatable="false">日本</string>
+
+    <string name="uae" translatable="false">عربي</string>
+    <string name="israel" translatable="false">עִברִית</string>
+    <string name="korea" translatable="false">한국인</string>
+    <string name="nederland" translatable="false">Nederlands</string>
+
+    <string name="sounth_african" translatable="false">Afrikaans</string>
+    <string name="georgian" translatable="false">Georgian</string>
+    <string name="polish" translatable="false">Polish</string>
+    <string name="turkish" translatable="false">Turkish</string>
+
+    <string-array name="info_des_array_1">
+        <item>@string/txt_info_des_1_1</item>
+        <item>@string/txt_info_des_1_2</item>
+    </string-array>
+
+    <string-array name="info_des_array_2">
+        <item>@string/txt_info_des_2_1</item>
+        <item>@string/txt_info_des_2_2</item>
+    </string-array>
+
+    <string-array name="info_des_array_3">
+        <item>@string/txt_info_des_3_1</item>
+        <item>@string/txt_info_des_3_2</item>
+        <item>@string/txt_info_des_3_3</item>
+        <item>@string/txt_info_des_3_4</item>
+    </string-array>
+
+    <string-array name="info_des_array_4">
+        <item>@string/txt_info_des_4_1</item>
+        <item>@string/txt_info_des_4_2</item>
+        <item>@string/txt_info_des_4_3</item>
+        <item>@string/txt_info_des_4_4</item>
+    </string-array>
+
+    <string-array name="info_des_array_5">
+        <item>@string/txt_info_des_5_1</item>
+    </string-array>
+
+    <string-array name="info_des_array_6">
+        <item>@string/txt_info_des_6_1</item>
+        <item>@string/txt_info_des_6_2</item>
+    </string-array>
+
+    <string-array name="info_des_array_7">
+        <item>@string/txt_info_des_7_1</item>
+    </string-array>
+
+    <string-array name="info_des_array_8">
+        <item>@string/txt_info_des_8_1</item>
+    </string-array>
+
+    <string-array name="info_des_array_9">
+        <item>@string/txt_info_des_9_1</item>
+        <item>@string/txt_info_des_9_2</item>
+        <item>@string/txt_info_des_9_3</item>
+    </string-array>
+
+    <string-array name="info_des_array_10">
+        <item>@string/txt_info_des_10_1</item>
+        <item>@string/txt_info_des_10_2</item>
+    </string-array>
+
+    <string-array name="info_des_array_11">
+        <item>@string/txt_info_des_11_1</item>
+        <item>@string/txt_info_des_11_2</item>
+        <item>@string/txt_info_des_11_3</item>
+    </string-array>
+
+    <string-array name="info_des_array_12">
+        <item>@string/txt_info_des_12_1</item>
+        <item>@string/txt_info_des_12_2</item>
+        <item>@string/txt_info_des_12_3</item>
+    </string-array>
+
+    <string-array name="info_des_array_13">
+        <item>@string/txt_info_des_13_1</item>
+        <item>@string/txt_info_des_13_2</item>
+        <item>@string/txt_info_des_13_3</item>
+        <item>@string/txt_info_des_13_4</item>
+    </string-array>
+
+    <string-array name="info_des_array_14">
+        <item>@string/txt_info_des_14_1</item>
+        <item>@string/txt_info_des_14_2</item>
+    </string-array>
+
+    <string-array name="info_des_array_15">
+        <item>@string/txt_info_des_15_1</item>
+        <item>@string/txt_info_des_15_2</item>
+        <item>@string/txt_info_des_15_3</item>
+        <item>@string/txt_info_des_15_4</item>
+    </string-array>
+
+    <string-array name="info_des_array_16">
+        <item>@string/txt_info_des_16_1</item>
+        <item>@string/txt_info_des_16_2</item>
+        <item>@string/txt_info_des_16_3</item>
+        <item>@string/txt_info_des_16_4</item>
+    </string-array>
+
+    <string-array name="state_blood_sugar_array">
+        <item>@string/txt_default</item>
+        <item>@string/txt_during_fasting</item>
+        <item>@string/txt_before_eating</item>
+        <item>@string/txt_after_eating_1h</item>
+        <item>@string/txt_after_eating_2h</item>
+        <item>@string/txt_before_bedtime</item>
+        <item>@string/txt_before_workout</item>
+        <item>@string/txt_after_wordkout</item>
+    </string-array>
+
+
+    <string name="txt_toast_ads">This action can contain ads</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_info">Info</string>
+    <string name="txt_setting">Settings</string>
+    <string name="txt_signature">Signature</string>
+    <string name="txt_crazy">Crazy</string>
+    <string name="txt_melt">Melt</string>
+    <string name="txt_run">Run</string>
+    <string name="txt_lazy">Lazy</string>
+    <string name="txt_diet">Diet</string>
+    <string name="txt_nightmare">Nightmare</string>
+    <string name="txt_right">Right</string>
+    <string name="txt_left">Left</string>
+
+    <string name="txt_remind_me_to_record">Remind me to record</string>
+    <string name="txt_blood_pressure">Blood Pressure</string>
+    <string name="txt_select_date">Please select a date</string>
+    <string name="txt_heart_rate">Heart Rate</string>
+    <string name="txt_blood_sugar">Blood Sugar</string>
+    <string name="txt_weight_and_bmi">Weight &amp; BMI</string>
+
+    <string name="txt_language_options">Language Options</string>
+    <string name="txt_export_as_file">Export as file</string>
+    <string name="txt_rate_us">Rate Us</string>
+    <string name="txt_share_with_friends">Share with Friends</string>
+    <string name="txt_feedback">Send Feedback</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="txt_your_data">Your Data</string>
+    <string name="txt_food_scanner">Food Scanner</string>
+    <string name="txt_tell_us_your_gender">Tell us your gender</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_others">Others</string>
+    <string name="txt_age">Age</string>
+    <string name="txt_height">Height</string>
+    <string name="txt_weight">Weight</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_title_info_1">How is it measured?</string>
+    <string name="txt_title_info_2">What is blood pressure?</string>
+    <string name="txt_title_info_3">Lifestyle for hypertension</string>
+    <string name="txt_title_info_4">Types of blood pressure</string>
+    <string name="txt_title_info_5">Hypotention</string>
+    <string name="txt_title_info_6">Hypertention: Why is it a rish factory?</string>
+    <string name="txt_title_info_7">How does hypertension affect the brain</string>
+    <string name="txt_title_info_8">How does blood pressure affect the kidneys?</string>
+    <string name="txt_title_info_9">How does blood pressure affect other organs?</string>
+    <string name="txt_title_info_10">Diagnosing hypertension</string>
+    <string name="txt_title_info_11">What are Normal Blood Sugar Levels?</string>
+    <string name="txt_title_info_12">What is Diabetes?</string>
+    <string name="txt_title_info_13">How Common is Diabetes?</string>
+    <string name="txt_title_info_14">How to Know if You Have Diabetes?</string>
+    <string name="txt_title_info_15">How Many Types of Diabetes are There?</string>
+    <string name="txt_title_info_16">Know about Heart Rate</string>
+    <string name="txt_back">Back</string>
+
+    <string name="txt_info_des_1_1">Blood pressure is measured by means of devices called sphygmomanometers , popularly known as blood pressure monitors , which must undergo regulatory validation and approval.</string>
+    <string name="txt_info_des_1_2">To ensure that the measurement obtained is correct , you must follow a series of instructions : \10– As blood pressure changes throughout the day and night , always take the measurement at the same time\10– Find a quiet room , without noise or interruptions , with a temperature of 20-25 ° C. You must be relaxed . Do not drink , eat , smoke or do physical exercise for half an hour before taking the measurement . Rest for 5 minutes before taking the measurement . Sit comfortably with your back against the back of the chair , do not cross your legs and take off any clothes that might press on your arm . Leave the palm of your hand facing upwards and your elbow slightly bent at the level of your heart . If you use a wrist blood pressure monitor , place the wrist strap at the level of your heart . Do not talk during the measurement.</string>
+
+    <string name="txt_info_des_2_1">Blood pressure or blood pressure is essential for the blood to circulate through the blood vessels and thus be able to carry the necessary oxygen and nutrients to all the tissues of the body . It can be defined as the force that the blood exerts on the walls of the arteries , which is highest ( systolic pressure ) when the heart pumps it into the arteries and lowest ( diastolic pressure ) between heartbeats . These two values ( systolic and diastolic ) are used to measure blood pressure.</string>
+    <string name="txt_info_des_2_2">When it comes to monitoring general health , blood pressure should be checked , because if it is above normal ( hypertension ) , it can mean a significant risk of serious diseases ( heart disease , heart attack , stroke , kidney failure , etc. ) . It is also important to control low blood pressure ( hypotension ) as it can cause confusion , dizziness , lightheadedness , fainting , weakness or drowsiness.</string>
+
+    <string name="txt_info_des_3_1">According to experts, there are factors that influence hypertension that we cannot control, such as aging, menopause or genetics. However, we can act by combating other factors that influence the onset of hypertension such as obesity, a sedentary lifestyle, poor diet or high salt consumption. Therefore, in order to control our blood pressure figures, the two basic rules are to pay attention to our diet, eliminating salt and following the Mediterranean diet, and to exercise.</string>
+    <string name="txt_info_des_3_2">As for the latter recommendation, the World Health Organization (WHO) has included it for three decades among the most important non-pharmacological measures aimed at lowering blood pressure values. Specifically, it recommends that adults should practice at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of intense activity per week.</string>
+    <string name="txt_info_des_3_3">With regard to diet, the main thing is to eat five portions of fruit and vegetables a day, reduce fats -especially saturated fats- and reduce salt intake to less than 5 grams a day -a teaspoon of coffee- or even eliminate it completely, replacing it with sodium-free herbs and spices. Another recommendation is to eliminate processed foods, which contain large amounts of salt, from the diet. And as for alcohol, excess consumption can lead to an increase in blood pressure, so it is also a good idea to avoid it. For those looking for a diet, you can find it at this link.</string>
+    <string name="txt_info_des_3_4">In addition, experts remind us that if high blood pressure appears in smokers, the chances of suffering a stroke or myocardial infarction are multiplied. That is why quitting smoking is also essential.</string>
+
+
+    <string name="txt_info_des_4_1">According to the blood pressure values (the first is the systolic or high blood pressure and the second is the diastolic or low blood pressure), it is classified as follows:</string>
+    <string name="txt_info_des_4_2">Hypotension SIS. less than 90 or DIA. less than 60 Normal SIS. 90-120 and DIA. 60-80 Pre-hypertension SIS. 120-140 and DIA. 80-90 Hypertension Phase 1: SIS. 140-160 or DIA. 90-100 Hypertension Phase 2: SIS. greater than 160 or DIA. greater than 100.</string>
+    <string name="txt_info_des_4_3">It should be borne in mind that blood pressure values do not remain unchanged throughout the day, but fluctuate according to various factors. This classification defines the existence or not of pathological states. However, there are situations in which there may be a one-off rise or fall in blood pressure which does not necessarily mean that there is a blood pressure problem.</string>
+    <string name="txt_info_des_4_4">Thus, stress or dangerous situations can produce a transient but significant increase as a result of elevated secretion of adrenaline and noradrenaline or activation of the parasympathetic nervous system, factors that contribute to an increase in heart rate. Conversely, dehydration, alcohol consumption, the use of certain medications, hypoglycaemia or shock (anaphylaxis, heart attack, etc.), among other causes, can induce a sudden drop in blood pressure.</string>
+
+    <string name="txt_info_des_5_1">If your readings are below 90/60 mmHg, you are probably hypotensive. You do not need any treatment, as low blood pressure does not cause any harm and usually has no symptoms. However, when your blood pressure often drops suddenly above 20 mmHg, due to some medications, or you feel dizzy, faint, fatigued, etc., you should seek treatment.</string>
+
+    <string name="txt_info_des_6_1">Hypertension puts a greater strain on the heart, which responds by increasing its muscle mass (left ventricular hypertrophy) to cope with the extra effort. This increase in muscle mass ends up being harmful because it is not accompanied by an equivalent increase in blood flow and can lead to coronary insufficiency and angina pectoris. In addition, the heart muscle becomes more irritable and more arrhythmias occur.</string>
+    <string name="txt_info_des_6_2">- In those patients who have already had a cardiovascular problem, hypertension can intensify the damage. It promotes atherosclerosis (accumulation of cholesterol in the arteries) and thrombosis phenomena (can lead to myocardial infarction or cerebral infarction).</string>
+
+    <string name="txt_info_des_7_1">When the arteries become stiff and narrow, the blood supply becomes insufficient and leads to cerebral infarctions (stroke or ischaemic stroke). High blood pressure can also cause an artery to rupture, resulting in a cerebral haemorrhage (stroke or haemorrhagic stroke).</string>
+
+    <string name="txt_info_des_8_1">Hypertension causes stiffening of the arteries that supply blood to the kidneys. But it also damages the kidney itself, which can lead to kidney failure, even requiring dialysis. On the other hand, damage to the kidney can lead to increased blood pressure.</string>
+
+    <string name="txt_info_des_9_1">If it affects the arteries in the legs, it causes pain when walking.</string>
+    <string name="txt_info_des_9_2">Damage to the arteries of the retina can cause impaired vision.</string>
+    <string name="txt_info_des_9_3">In men it can cause impotence.</string>
+
+    <string name="txt_info_des_10_1">According to experts, there are factors that influence hypertension that we cannot control, such as aging, menopause or genetics. However, we can act by combating other factors that influence the onset of hypertension such as obesity, a sedentary lifestyle, poor diet or high salt consumption. Therefore, in order to control our blood pressure figures, the two basic rules are to pay attention to our diet, eliminating salt and following the Mediterranean diet, and to exercise</string>
+    <string name="txt_info_des_10_2">As for the latter recommendation, the World Health Organization (WHO) has included it for three decades among the most important non-pharmacological measures aimed at lowering blood pressure values. Specifically, it recommends that adults should practice at least 150 minutes of moderate-intensity aerobic physical activity or 75 minutes of intense activity per week.</string>
+
+    <string name="txt_info_des_11_1">The amount of glucose will change depending on when, what and how much you have eaten, and whether or not you have exercised.</string>
+    <string name="txt_info_des_11_2">The normal blood sugar level for adults (without diabetes) who have not eaten for at least 8 hours (fasting) is less than 100 mg/dL. And the level for adults without diabetes two hours after eating is 90 to 110 mg/dL.</string>
+    <string name="txt_info_des_11_3">Healthy blood sugar level for children under 6 years of age should be in the range of 80 to 200 mg/dL per day. The average blood sugar level of adolescents should be between 70 and 150 mg/dL during the day.</string>
+
+    <string name="txt_info_des_12_1">Diabetes is a metabolic disease that causes high blood sugar resulting from insulin deficiency, insulin resistance, etc.</string>
+    <string name="txt_info_des_12_2">Glucose is an important part of our daily function. Our body uses it for energy but requires a hormone called insulin, which is produced by the pancreas. When someone has diabetes, the insulin produced does not work correctly, which leaves more glucose in the bloodstream.</string>
+    <string name="txt_info_des_12_3">Diabetes or diabetes mellitus is a severe and complex condition. People with diabetes have to live with it for the rest of their lives since there is currently no cure.</string>
+
+    <string name="txt_info_des_13_1">Diabetes is one of the world\'s fastest-growing chronic diseases.</string>
+    <string name="txt_info_des_13_2">In 1980, 108 million people worldwide had diabetes. By 2014, that number had risen to 422 million. (World Health Organization [WHO], 2020)</string>
+    <string name="txt_info_des_13_3">An estimated 700 million adults worldwide will have diabetes by 2045. (International Diabetes Federation [IDF], 2020)</string>
+    <string name="txt_info_des_13_4">There is an increasing tendency for diabetes. Type 2 diabetes is increasing at the fastest pace.</string>
+
+    <string name="txt_info_des_14_1">No individual has the same symptoms. What you experience won\'t exactly match those of another person. If you have any of the following symptoms, you should see a doctor to test your blood sugar.</string>
+    <string name="txt_info_des_14_2">. Feel very thirsty \10. Feel very hungry \10. Feel very tired \10· Urinate a lot, especially at night \10. Lose weight without trying \10. Have blurry vision Have cuts and wounds that heal slowly \10. Have numb or tingling hands or feet \10. Have more infections than usual \10. Have nausea, vomiting, or stomach pains \10(type 1 diabetes)</string>
+
+    <string name="txt_info_des_15_1">There are three common types of diabetes: type 1, type 2 and gestational.</string>
+    <string name="txt_info_des_15_2">Type 1 diabetes occurs most frequently in children and adolescents. People with type 1 diabetes have too high blood sugar levels, meaning that they need daily insulin injections to maintain blood glucose levels under control.</string>
+    <string name="txt_info_des_15_3">Type2 diabetes is more common in adults and accounts for around 90% of all diabetes cases. But with the proper treatment and care, people can do well with type 2 diabetes and reduce their risk of developing it.</string>
+    <string name="txt_info_des_15_4">Gestational diabetes can develop during pregnancy, often seen in pre-diabetes and a family history of diabetes. Gestational diabetes mellitus usually disappears after pregnancy, but both affected women and their children are at increased risk of developing type 2 diabetes later in life.</string>
+
+    <string name="txt_info_des_16_1">Heart rate, also named pulse, is the number of times the heart beats within a period of time (usually a minute).</string>
+    <string name="txt_info_des_16_2">When the heart beats, our blood is pumped out to the rest of your body, delivering sufficient oxygen to every cell. Through this process, the cells can gain energy and nutrition.</string>
+    <string name="txt_info_des_16_3">The frequency of the heartbeats to circulate blood differentiates as the need for oxygen changes. For instance, when we are exercising, the cells tend to consume more oxygen and energy. Therefore, our heart beats faster than usual.</string>
+    <string name="txt_info_des_16_4">Heart rate is divided into resting heart rate and target heart rate. The first kind is to describe(describes) our heart rate when we are at rest. The latter is used to evaluate our bodies while exercising.</string>
+    <string name="txt_welcome_to_back">Welcome back</string>
+    <string name="txt_please_enter_content">Please enter the content!</string>
+    <string name="txt_please_enter_valid_content">Invalid content!</string>
+    <string name="txt_invalid_height">Invalid Age or Height or Weight Value. Please try again!</string>
+    <string name="txt_comming_soon">Comming soon</string>
+    <string name="txt_please_add_new_record">Please add new record to see statistics.</string>
+    <string name="txt_add_record">Add Record</string>
+    <string name="txt_pulse">Pulse</string>
+    <string name="txt_history">History</string>
+    <string name="txt_loading_ads">Loading Ads…</string>
+    <string name="txt_min">Min</string>
+    <string name="txt_average">Average</string>
+    <string name="txt_latest">Latest</string>
+
+    <string name="txt_max">Max</string>
+    <string name="txt_systolic">Systolic</string>
+    <string name="txt_diastolic">Diastolic</string>
+    <string name="txt_all_history">All History</string>
+    <string name="txt_new_record">New Record</string>
+
+    <string name="txt_no_chart_data">No chart data available</string>
+    <string name="txt_hypotension">Hypotension</string>
+
+    <string name="txt_sys_180_or_dia_120">SYS &gt; 180 or DIA &gt; 120</string>
+    <string name="txt_date_time">Date &amp; Time</string>
+    <string name="txt_note">Note</string>
+    <string name="txt_today">Today</string>
+    <string name="txt_got_it">Got it!</string>
+    <string name="txt_blood_pressure_type">Blood Pressure Type:</string>
+    <string name="txt_normal_blood_pressure">Normal Blood Pressure</string>
+
+    <string name="txt_blood_level_1">SYS &lt; 120 and DIA &lt; 80</string>
+    <string name="txt_blood_level_2">SYS 120-129 and DIA &lt; 80</string>
+    <string name="txt_blood_level_3">SYS 130+ or DIA 80+</string>
+    <string name="txt_blood_level_4">SYS 140+ or DIA 90+</string>
+    <string name="txt_blood_level_5">SYS 180+ and/or DIA 120+</string>
+
+    <string name="txt_diagnose_level_1">Normal Blood \10Pressure</string>
+    <string name="txt_diagnose_level_2">Elevated Blood \10Pressure</string>
+    <string name="txt_diagnose_level_3">High Blood Pressure - Stage 1</string>
+    <string name="txt_diagnose_level_4">High Blood Pressure - Stage 2</string>
+    <string name="txt_diagnose_level_5">Dangerously High Blood Pressure</string>
+
+    <string name="txt_elevated_blood_pressure">Elevated Blood Pressure</string>
+    <string name="txt_high_blood_pressure_stage_1">High Blood Pressure - Stage 1</string>
+    <string name="txt_high_blood_pressure_stage_2">High Blood Pressure - Stage 2</string>
+    <string name="txt_notes">Notes</string>
+    <string name="txt_edit_add">Edit/Add</string>
+    <string name="txt_no_record">No Record Here!</string>
+    <string name="txt_edit_record">Edit Record</string>
+    <string name="txt_delete_the_tag">Delete The Tag?</string>
+
+    <string name="txt_are_you_sure_to_delete_this_tag">Are you sure to delete this tag?</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_cancel">Cancel</string>
+
+    <string name="txt_delete_confirm">Delete Confirm</string>
+    <string name="txt_are_you_sure_to_delete_this_record">Are you sure to delete this record?</string>
+    <string name="txt_long_press_and_drag_to_reorder">Long press \n and drag to reorder</string>
+    <string name="txt_add_new">Add new</string>
+    <string name="txt_add_note">Add Note</string>
+    <string name="txt_maximum_20_characters">Maximum 20 characters.</string>
+    <string name="txt_please_enter_something">Please enter something</string>
+    <string name="txt_add">+ Add</string>
+    <string name="txt_tracker">Tracker</string>
+    <string name="txt_bmi">BMI</string>
+    <string name="txt_language">Language</string>
+    <string name="txt_press_again_to_exit">Press again to exit</string>
+
+    <string name="txt_bmi_type_1">Underweight</string>
+    <string name="txt_bmi_type_2">Normal weight</string>
+    <string name="txt_bmi_type_3">Overweight</string>
+    <string name="txt_bmi_type_4">Obbese Class I</string>
+    <string name="txt_bmi_type_5">Obbese Class II</string>
+    <string name="txt_bmi_type_6">Obbese Class III</string>
+    <string name="txt_bmi_type">BMI type</string>
+    <string name="txt_des_bmi_type_1">Below 18.5</string>
+    <string name="txt_des_bmi_type_2">18.5 - 24.5</string>
+    <string name="txt_des_bmi_type_3">25.0 - 29.9</string>
+    <string name="txt_des_bmi_type_4">30.0 - 34.9</string>
+    <string name="txt_des_bmi_type_5">35.0 - 39.9</string>
+    <string name="txt_des_bmi_type_6">Above 40</string>
+    <string name="txt_range_height">Height in 1-255cm</string>
+    <string name="txt_range_weight">Weight in 1-255kg</string>
+    <string name="txt_after_break_fast">After breakfast</string>
+    <string name="txt_before_break_fast">Before breakfast</string>
+    <string name="txt_after_lunch">After lunch</string>
+    <string name="txt_before_lunch">Before lunch</string>
+    <string name="txt_after_dinner">After dinner</string>
+    <string name="txt_before_dinner">Before dinner</string>
+    <string name="txt_morning">Morning</string>
+    <string name="txt_state">State</string>
+
+    <string name="txt_pre_diabetes">Pre-diabetes</string>
+    <string name="txt_diabetes">Diabetes</string>
+    <string name="txt_low">Low</string>
+    <string name="txt_normal">Normal</string>
+    <string name="txt_please_enter_valid_blood_sugar_1">Please enter a valid blood sugar 18.0~35.0 mmol/l</string>
+    <string name="txt_please_enter_valid_blood_sugar_2">Please enter a valid blood sugar 18.0~630.0 mg/dL</string>
+    <string name="txt_feeling_good">Feeling good</string>
+    <string name="txt_un_comfortable">Uncomfortable</string>
+    <string name="txt_oral_medication">Oral medication</string>
+    <string name="txt_insulin">Insulin</string>
+    <string name="txt_pregnant">Pregnant</string>
+    <string name="txt_lactation">Lactation</string>
+    <string name="txt_during_period">During period</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_default">Default</string>
+    <string name="txt_during_fasting">During fasting</string>
+    <string name="txt_before_eating">Before eating</string>
+    <string name="txt_after_eating_1h">After eating(1h)</string>
+    <string name="txt_after_eating_2h">After eating(2h)</string>
+    <string name="txt_before_bedtime">Before bedtime</string>
+    <string name="txt_before_workout">Before workout</string>
+    <string name="txt_after_wordkout">After workout</string>
+
+    <string name="title_warning_version">Your application version too low. Please update newest version to experience our app. Thanks</string>
+    <string name="txt_goto_store">I agree and go to update</string>
+    <string name="txt_do_later">Ask me later</string>
+    <string name="txt_incorrect_number">Incorrect number</string>
+
+    <string name="txt_add_data">+ Add Data</string>
+    <string name="txt_chart">Chart</string>
+    <string name="txt_no_data_heart_rate">Tracker now or add your first record to see statistiics</string>
+    <string name="txt_tracker_now">Tracker Now</string>
+    <string name="txt_export">Export</string>
+    <string name="txt_tapp_to_start">Tap to start now</string>
+    <string name="txt_how_to_use">How to use?</string>
+    <string name="txt_bmp">bmp</string>
+    <string name="txt_measure1">Tracking.</string>
+    <string name="txt_place">Place your finger on camera</string>
+    <string name="txt_when_the">When the finder turns red, you\'re doing it right</string>
+    <string name="txt_slow">Slow</string>
+    <string name="txt_fast">Fast</string>
+    <string name="txt_measure_your_heart">Tracking your heart rate. Keep it steady!</string>
+    <string name="txt_bpm">BPM</string>
+    <string name="txt_resting_hearte_rate">Resting Heart Rate</string>
+    <string name="txt_request_camera">Please allow camera permission to use this feature.</string>
+    <string name="txt_instruction">Instruction</string>
+    <string name="txt_animation">Animation</string>
+    <string name="txt_intruct_1">Place gently one fingertip on the phone camera. Make sure it fully covers the lens (NOT the flashlight, which is hot).</string>
+    <string name="txt_intruct_2">Stay still until the tracking is done!</string>
+    <string name="txt_intruct_3">For accurate result, please tracker in good lighting or with the flashlight on.</string>
+
+    <string name="txt_guideline_scanner">Scan food barcodes/QR codes to get details of what you eat.</string>
+    <string name="txt_no_found_app">No found app</string>
+
+</resources>
