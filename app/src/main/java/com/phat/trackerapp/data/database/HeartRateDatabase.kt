@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.phat.trackerapp.data.dao.HeartRateDao
-import com.phat.trackerapp.utils.measuring.model.HeartRate
+import com.phat.trackerapp.data.model.HeartRate
 
 @Database(entities = [HeartRate::class], version = 1)
 abstract class HeartRateDatabase : RoomDatabase() {

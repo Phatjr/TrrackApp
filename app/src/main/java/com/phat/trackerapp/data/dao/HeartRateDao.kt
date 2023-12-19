@@ -2,7 +2,7 @@ package com.phat.trackerapp.data.dao
 
 import androidx.room.*
 import androidx.room.OnConflictStrategy.REPLACE
-import com.phat.trackerapp.utils.measuring.model.HeartRate
+import com.phat.trackerapp.data.model.HeartRate
 
 @Dao
 interface HeartRateDao {

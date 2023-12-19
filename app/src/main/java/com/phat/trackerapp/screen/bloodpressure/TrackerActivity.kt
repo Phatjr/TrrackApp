@@ -125,15 +125,18 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
             mLastTrackers.clear()
             // ...
         }, doInBackground = {
+            //Todo lấy data từ cơ sở dữ liệu ra
             TrackerDatabase.getInstance(this).trackerDao().getAll()
         }, onPostExecute = {
-            // ... here "it" is a data returned from "doInBackground"
-            val trackerAll = it
+            //todo... ở đây "it" là dữ liệu được trả về từ "doInBackground"
+            val trackerAll = it //it
+            //todo kiem tra xem data vừa lấy được có rỗng hay không, nếu khác rỗng thì vào hàm if ngược lại vào hàm else
             if (trackerAll != null && trackerAll.isNotEmpty()) {
-                mHistoryAdapter.notifyDataSetChanged()
+                mHistoryAdapter.notifyDataSetChanged() //Todo làm mới data ở trong adapter
                 txtNoChart.visibility = View.GONE
                 chartTracker.visibility = View.VISIBLE
-                mTrackers.addAll(trackerAll)
+                mTrackers.addAll(trackerAll) //todo gán lại giá trị cho mTracker = trackerAll
+                //todo add giá trị lại cho mảng track được thêm gần đây nhất
                 mTrackerLatest = mTrackers[mTrackers.size - 1]
                 if (mTrackers.size >= 3) {
                     mLastTrackers.add(mTrackers[mTrackers.size - 1])
@@ -147,8 +150,10 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
                 } else {
 
                 }
+                //todo sắp xếp lại mảng dữ liệu tăng dần
                 mTrackers.sortBy { it.getTimeLong() }
             } else {
+                //todo hiển thị layout khi không có data (dữ liệu trống)
                 txtNoChart.visibility = View.VISIBLE
                 chartTracker.visibility = View.INVISIBLE
                 mAddNewRecordDialog.show()
@@ -162,7 +167,7 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
                 getString(R.string.txt_average),
                 getString(R.string.txt_latest)
             )
-            // find min max
+            //todo find min,max,Aver
             if (mTrackers.size > 0) {
                 mMinSystolic = mTrackers.reduce(Compare::minSystolic).systolic
                 mMaxSystolic = mTrackers.reduce(Compare::maxSystolic).systolic
@@ -178,8 +183,7 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
                 updateValueMinMaxAver()
             }
 
-            // chart
-
+            //todo chart
             val xDays = ArrayList<String>()
             xDays.add(getString(R.string.txt_systolic))
             xDays.add(getString(R.string.txt_diastolic))
@@ -189,9 +193,10 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
 
             val labels: ArrayList<String> = ArrayList()
 
+
+            //todo mỗi vòng duyệt thì add thêm 1 cột vảo chart
             for (i in 0 until mTrackers.size) {
                 val tracker = mTrackers[i]
-
                 val label = tracker.time + ", " + tracker.date
 
                 if(!labels.contains(label)){
@@ -218,6 +223,8 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
             data.add(systolics)
             data.add(diastolics)
 
+
+            //todo set data vừa tạo được vào trong chart để hiển thị
             onCreateBarChart(data, xDays,chartTracker)
 
         })
@@ -254,6 +261,7 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
                 mCurrentIndex++
             }
             txtStateValue.text = mStateValues[mCurrentIndex]
+            //todo cập nhật lại giá trị đang hiển thị trên màn hình
             updateValueMinMaxAver()
         }
 
@@ -265,6 +273,7 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
                 mCurrentIndex--
             }
             txtStateValue.text = mStateValues[mCurrentIndex]
+            //todo cập nhật lại giá trị đang hiển thị trên màn hình
             updateValueMinMaxAver()
         }
 
@@ -282,25 +291,30 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
     }
 
     private fun updateValueMinMaxAver() {
+        //Todo hien thi data dua tren cao nhat, thap nhat, trung binh, moi nhat
         when (mCurrentIndex) {
+            //Todo Cao nhat
             0 -> {
                 itemSystolic.value = mMaxSystolic.toString()
                 itemDiastolic.value = mMaxDiastolic.toString()
                 itemPulse.value = mMaxPulse.toString()
             }
 
+            //Todo thap nhat
             1 -> {
                 itemSystolic.value = mMinSystolic.toString()
                 itemDiastolic.value = mMinDiastolic.toString()
                 itemPulse.value = mMinPulse.toString()
             }
 
+            //Todo trung binh
             2 -> {
                 itemSystolic.value = mAverSystolic.toString()
                 itemDiastolic.value = mAverDiastolic.toString()
                 itemPulse.value = mAverPulse.toString()
             }
 
+            //Todo moi nhat
             3 -> {
                 if (mTrackerLatest != null && mTrackerLatest?.systolic != null) {
                     itemSystolic.value = mTrackerLatest?.systolic.toString()
@@ -312,6 +326,8 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
     }
 
 
+
+    //Todo sap xep tim kiem
     internal object Compare {
         fun minSystolic(a: Tracker, b: Tracker): Tracker {
             return if (a.systolic < b.systolic) a else b

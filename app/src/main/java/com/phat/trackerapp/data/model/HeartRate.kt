@@ -1,4 +1,4 @@
-package com.phat.trackerapp.utils.measuring.model
+package com.phat.trackerapp.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

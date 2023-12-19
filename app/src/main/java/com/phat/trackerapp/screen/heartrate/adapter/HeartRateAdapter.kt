@@ -8,7 +8,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.phat.trackerapp.R
 import com.phat.trackerapp.callback.OnItemListener
-import com.phat.trackerapp.utils.measuring.model.HeartRate
+import com.phat.trackerapp.data.model.HeartRate
 import kotlinx.android.synthetic.main.layout_item_heart_rate.view.btnEdit
 import kotlinx.android.synthetic.main.layout_item_heart_rate.view.lineState
 import kotlinx.android.synthetic.main.layout_item_heart_rate.view.tvHeartRate

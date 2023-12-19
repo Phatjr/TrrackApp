@@ -84,7 +84,10 @@ class EditTrackerActivity : AppCompatActivity() {
         txtTitle.setText(R.string.txt_edit_record)
         val id = intent.getIntExtra(Constants.ID, 0)
         mType = intent.getIntExtra(Constants.TYPE, Constants.HOME)
-        mTracker = TrackerDatabase.getInstance(this).trackerDao().findTrackerById(id)
+        mTracker = TrackerDatabase.getInstance(this).trackerDao().findTrackerById(id) //todo dựa theo id để lấy data ra
+
+
+        //todo gán data để hiển thị ra màn hình
         pickerSystolic.minValue = 20
         pickerSystolic.maxValue = 300
 

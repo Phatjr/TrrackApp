@@ -24,7 +24,7 @@ import com.phat.trackerapp.screen.heartrate.chart.ChartActivity
 import com.phat.trackerapp.screen.record.heartrate.EditAddHeartRateActivity
 import com.phat.trackerapp.utils.Constants
 import com.phat.trackerapp.utils.Utils
-import com.phat.trackerapp.utils.measuring.model.HeartRate
+import com.phat.trackerapp.data.model.HeartRate
 import kotlinx.android.synthetic.main.activity_heart_rate.btnAddData
 import kotlinx.android.synthetic.main.activity_heart_rate.btnBack
 import kotlinx.android.synthetic.main.activity_heart_rate.btnExport
@@ -92,6 +92,7 @@ class HeartRateActivity : AppCompatActivity(), OnItemListener {
         lifecycleScope.executeAsyncTask(onPreExecute = {
             mList.clear()
         }, doInBackground = {
+            //Todo lay data heart rate tu local ra va gan gia tri vao mList
             mList.addAll(HeartRateDatabase.getInstance(this).heartRateDao().getAll())
         }, onPostExecute = {
             mHeartRateAdapter.notifyDataSetChanged()

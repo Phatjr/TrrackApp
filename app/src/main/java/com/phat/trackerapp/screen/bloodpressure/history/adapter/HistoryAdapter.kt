@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.phat.trackerapp.R
 import com.phat.trackerapp.callback.OnItemListener
@@ -18,7 +19,11 @@ import kotlinx.android.synthetic.main.layout_item_history.view.txtTag
 import kotlinx.android.synthetic.main.layout_item_history.view.txtTimeDate
 import kotlinx.android.synthetic.main.layout_item_history.view.viewState
 
-class HistoryAdapter(var context: Context, var trackers: ArrayList<Tracker>, var onItemListener: OnItemListener):RecyclerView.Adapter<HistoryAdapter.MyViewHolder>() {
+class HistoryAdapter(
+    var context: Context,
+    var trackers: ArrayList<Tracker>,
+    var onItemListener: OnItemListener
+) : RecyclerView.Adapter<HistoryAdapter.MyViewHolder>() {
 
     inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
@@ -36,8 +41,9 @@ class HistoryAdapter(var context: Context, var trackers: ArrayList<Tracker>, var
 
         itemView.txtSystolic.text = valueSystolic.toString()
         itemView.txtDiastolic.text = tracker.diastolic.toString()
-        itemView.txtPulse.text = context.getString(R.string.txt_pulse)+": "+tracker.pulse.toString()
-        itemView.txtTimeDate.text = tracker.time+", "+tracker.date
+        itemView.txtPulse.text =
+            context.getString(R.string.txt_pulse) + ": " + tracker.pulse.toString()
+        itemView.txtTimeDate.text = tracker.time + ", " + tracker.date
         itemView.txtState.text = tracker.state
         itemView.txtTag.text = tracker.tag
 
@@ -69,6 +75,7 @@ class HistoryAdapter(var context: Context, var trackers: ArrayList<Tracker>, var
 
         itemView.btnEdit.setOnClickListener {
             onItemListener.onItemClick(position)
+            Toast.makeText(context, "$position", Toast.LENGTH_SHORT).show()
         }
     }
 

@@ -23,7 +23,7 @@ import com.phat.trackerapp.screen.record.adapter.NanoTagClass
 import com.phat.trackerapp.screen.record.adapter.TagNoteAdapter
 import com.phat.trackerapp.utils.Constants
 import com.phat.trackerapp.utils.Utils
-import com.phat.trackerapp.utils.measuring.model.HeartRate
+import com.phat.trackerapp.data.model.HeartRate
 import kotlinx.android.synthetic.main.activity_edit_add_heart_rate.*
 import kotlinx.android.synthetic.main.layout_date_time_option.*
 import kotlinx.android.synthetic.main.layout_dialog_delete_tag.*

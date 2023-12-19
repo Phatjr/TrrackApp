@@ -84,11 +84,11 @@ class HistoryActivity : AppCompatActivity(), OnItemListener{
 
     private fun loadData(){
         lifecycleScope.executeAsyncTask(onPreExecute = {
-            mTrackers.clear()
+            mTrackers.clear() //todo trước khi lấy dữ liệu thì xóa hết dữ liệu cũ đang được lưu
         }, doInBackground = {
             mTrackers.addAll(TrackerDatabase.getInstance(this).trackerDao().getAll().reversed())
         }, onPostExecute = {
-            mHistoryAdapter.notifyDataSetChanged()
+            mHistoryAdapter.notifyDataSetChanged() //todo làm mới lại data trong recyclerview sau đó lại hiển thị ra màn hình
             if(mTrackers.size==0) {
                 layoutEmpty.visibility = View.VISIBLE
             }
@@ -100,6 +100,8 @@ class HistoryActivity : AppCompatActivity(), OnItemListener{
             onBackPressedDispatcher.onBackPressed()
         }
 
+
+        //todo handle nút back
         onBackPressedDispatcher.addCallback(this , object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
                 if(mIsUpdating){
