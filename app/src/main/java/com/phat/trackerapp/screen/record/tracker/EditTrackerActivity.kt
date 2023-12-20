@@ -84,7 +84,7 @@ class EditTrackerActivity : AppCompatActivity() {
         txtTitle.setText(R.string.txt_edit_record)
         val id = intent.getIntExtra(Constants.ID, 0)
         mType = intent.getIntExtra(Constants.TYPE, Constants.HOME)
-        mTracker = TrackerDatabase.getInstance(this).trackerDao().findTrackerById(id) //todo dựa theo id để lấy data ra
+        mTracker = TrackerDatabase.getInstance(this).trackerDao().findTrackerById(id) //todo dựa theo id để lấy data ra từ trong csdl
 
 
         //todo gán data để hiển thị ra màn hình
@@ -130,7 +130,6 @@ class EditTrackerActivity : AppCompatActivity() {
                 mTagNoteAdapter.tagSelected.add(it)
             }
         }
-        val nanoTagClass = NanoTagClass(this, mDialogNote?.rvTags!!, mTagNoteAdapter)
     }
 
     private fun handleEvents() {

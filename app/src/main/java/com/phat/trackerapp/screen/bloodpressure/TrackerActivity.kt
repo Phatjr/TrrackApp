@@ -91,7 +91,7 @@ class TrackerActivity : AppCompatActivity(), OnItemListener {
 
     override fun onItemClick(position: Int) {
         if(position < mLastTrackers.size){
-            val tracker = mLastTrackers[position]
+            val tracker = mLastTrackers[position] //todo dựa theo vị trí nhận được, lấy ra item đúng vị trí dó để truyền id của nó sang EditTrackerActivity
             val intent = Intent(this, EditTrackerActivity::class.java)
             intent.putExtra(Constants.ID, tracker.id)
             intent.putExtra(Constants.TYPE, Constants.HOME)

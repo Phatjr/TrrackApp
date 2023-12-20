@@ -226,7 +226,8 @@ class HeartRateActivity : AppCompatActivity(), OnItemListener {
     override fun onItemClick(position: Int) {
 
         val intent = Intent(this, EditAddHeartRateActivity::class.java)
-        intent.putExtra(Constants.ID, mList[position].id)
+        val heartRate = mList[position]
+        intent.putExtra(Constants.ID, heartRate.id)
         showScreen(intent)
     }
 

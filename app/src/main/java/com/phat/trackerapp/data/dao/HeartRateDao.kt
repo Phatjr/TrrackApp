@@ -23,7 +23,7 @@ interface HeartRateDao {
     fun deleteAllTracker()
 
     @Query("select * from heart_rate where id = :id")
-    fun findBMIById(id: Int): HeartRate
+    fun findHeartRateById(id: Int): HeartRate
 
     @Update
     fun update(heartRate: HeartRate)

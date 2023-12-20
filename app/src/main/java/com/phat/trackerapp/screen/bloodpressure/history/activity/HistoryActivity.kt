@@ -86,7 +86,7 @@ class HistoryActivity : AppCompatActivity(), OnItemListener{
         lifecycleScope.executeAsyncTask(onPreExecute = {
             mTrackers.clear() //todo trước khi lấy dữ liệu thì xóa hết dữ liệu cũ đang được lưu
         }, doInBackground = {
-            mTrackers.addAll(TrackerDatabase.getInstance(this).trackerDao().getAll().reversed())
+            mTrackers.addAll(TrackerDatabase.getInstance(this).trackerDao().getAll().reversed()) //todo reversed đảo ngược thứ tự vị trí trong mảng
         }, onPostExecute = {
             mHistoryAdapter.notifyDataSetChanged() //todo làm mới lại data trong recyclerview sau đó lại hiển thị ra màn hình
             if(mTrackers.size==0) {

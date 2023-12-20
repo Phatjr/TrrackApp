@@ -44,8 +44,6 @@ class EditAddHeartRateActivity : AppCompatActivity() {
 
     private var mIntent: Intent? = null
 
-    private lateinit var mHeartRateDao: HeartRateDao
-
     private var mTrackerValue: Int = 0
 
     private var mIsFromTracker: Boolean = false
@@ -62,11 +60,10 @@ class EditAddHeartRateActivity : AppCompatActivity() {
     }
 
     private fun initData() {
-        mHeartRateDao = HeartRateDatabase.getInstance(this).heartRateDao()
         mID = intent.getIntExtra(Constants.ID, -1)
         mTrackerValue = intent.getIntExtra(Constants.VALUE, 0)
         mIsFromTracker = intent.getBooleanExtra(Constants.FROM_TRACKER, false)
-        mCurrentHeartRate = mHeartRateDao.findBMIById(mID)
+        mCurrentHeartRate = HeartRateDatabase.getInstance(this).heartRateDao().findHeartRateById(mID)
     }
 
     private fun initView() {
@@ -99,7 +96,6 @@ class EditAddHeartRateActivity : AppCompatActivity() {
             SharePrefDB.getInstance(this).getAllNotes(Constants.KEY_BMI_NOTES).toList()
         )
         mTagNoteAdapter = TagNoteAdapter(this, tags)
-        val nanoTagClass = NanoTagClass(this, mDialogNote?.rvTags!!, mTagNoteAdapter)
     }
 
     private fun initDateTime() {
@@ -147,6 +143,7 @@ class EditAddHeartRateActivity : AppCompatActivity() {
         btnSave.setOnClickListener {
             val id = if (mID == -1) 0 else mID
             val tag = mTagNoteAdapter.getAllTagSelected()
+
             val heartRate = HeartRate(
                 id = id,
                 heartRate = numberPicker.value,
@@ -154,10 +151,12 @@ class EditAddHeartRateActivity : AppCompatActivity() {
                 time = txtTime.text.toString(),
                 tag = tag
             )
+
+            //todo kiểm tra id nếu khác -1 tức là đã tồn tại trong csdl, nếu đã tồn tại thì tiến hành update dựa theo id đó và ngược lại
             if (mID != -1 && mCurrentHeartRate != null) {
-                mHeartRateDao.update(heartRate)
+                HeartRateDatabase.getInstance(this).heartRateDao().update(heartRate)
             } else {
-                mHeartRateDao.insert(heartRate)
+                HeartRateDatabase.getInstance(this).heartRateDao().insert(heartRate)
             }
 
             gotoBeforeScreen()
@@ -177,7 +176,7 @@ class EditAddHeartRateActivity : AppCompatActivity() {
                 if (mCurrentHeartRate != null) {
 
                     mDialogDeleteNote.dismiss()
-                    mHeartRateDao.delete(mCurrentHeartRate)
+                    HeartRateDatabase.getInstance(this).heartRateDao().delete(mCurrentHeartRate)
                     gotoBeforeScreen()
                 }
             }

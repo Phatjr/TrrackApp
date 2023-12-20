@@ -39,9 +39,7 @@ class InfoFragment : Fragment(), OnItemListener {
     }
 
     override fun onItemClick(position: Int) {
-
-
-        var intent = Intent(requireContext(), InfoActivity::class.java)
+        val intent = Intent(requireContext(), InfoActivity::class.java)
         intent.putExtra(Constants.ICON, infoKnowledges[position].idIconInfo)
         intent.putExtra(Constants.TITLE, infoKnowledges[position].idTitle)
         intent.putExtra(Constants.BACKGROUND, infoKnowledges[position].idBg)

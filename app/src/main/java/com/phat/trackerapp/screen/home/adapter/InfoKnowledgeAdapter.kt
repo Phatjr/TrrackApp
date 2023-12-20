@@ -17,7 +17,11 @@ import kotlinx.android.synthetic.main.layout_item_info.view.layoutInfo
 import kotlinx.android.synthetic.main.layout_item_info.view.txtTitle
 
 
-class InfoKnowledgeAdapter(var context: Context, var infoKnowledges: ArrayList<InfoKnowledge>, var onItemListener: OnItemListener):RecyclerView.Adapter<InfoKnowledgeAdapter.MyViewHolder>() {
+class InfoKnowledgeAdapter(
+    var context: Context,
+    var infoKnowledges: ArrayList<InfoKnowledge>,
+    var onItemListener: OnItemListener
+) : RecyclerView.Adapter<InfoKnowledgeAdapter.MyViewHolder>() {
 
     inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
@@ -31,6 +35,8 @@ class InfoKnowledgeAdapter(var context: Context, var infoKnowledges: ArrayList<I
         val itemView = holder.itemView
         val infoKnowledge = infoKnowledges[position]
 
+
+        //todo Glide là thư viện dùng để load ảnh vào imageview
         Glide.with(context).asDrawable().load(infoKnowledge.idBg)
             .into(object : SimpleTarget<Drawable>() {
                 override fun onResourceReady(
