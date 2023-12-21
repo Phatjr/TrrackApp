@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.phat.trackerapp.R
 import com.phat.trackerapp.callback.OnItemListener
 import com.phat.trackerapp.screen.home.HomeActivity
@@ -198,7 +199,7 @@ class InfoFragment : Fragment(), OnItemListener {
         )
 
         val infoKnowledgeAdapter = InfoKnowledgeAdapter(requireContext(), infoKnowledges, this)
-        rvInfoKnowledge.layoutManager = GridLayoutManager(requireContext(), 2)
+        rvInfoKnowledge.layoutManager = LinearLayoutManager(requireContext())
         rvInfoKnowledge.adapter = infoKnowledgeAdapter
     }
 
